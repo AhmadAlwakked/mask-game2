@@ -9,14 +9,12 @@ public class MouseLook : MonoBehaviour
 
     void Start()
     {
-        // Muis vastzetten in het midden van het scherm
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     void Update()
     {
-        // ESC om muis los te laten (handig tijdens testen)
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Cursor.lockState = CursorLockMode.None;
@@ -29,10 +27,7 @@ public class MouseLook : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        // Camera omhoog/omlaag
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-        // Speler links/rechts
         playerBody.Rotate(Vector3.up * mouseX);
     }
 }
