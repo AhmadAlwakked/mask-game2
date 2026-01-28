@@ -34,6 +34,6 @@ public class MoneyManager : MonoBehaviour
     private void UpdateMoneyUI()
     {
         if (moneyText != null)
-            moneyText.text = "Geld: $" + CurrentMoney;
+            moneyText.text = "$ " + CurrentMoney;
     }
 }
