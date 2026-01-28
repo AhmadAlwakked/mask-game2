@@ -18,10 +18,15 @@ public class MaskScalerUI : MonoBehaviour
     public Vector2 enlargedSize = new Vector2(130, 130);
 
     [Header("Panel Settings")]
-    public Image panel; // Het panel dat van kleur verandert
-    public Color mask1Color = new Color(1f, 0f, 0f, 0.5f); // Rood, 50% transparant
-    public Color mask2Color = new Color(0f, 1f, 0f, 0.5f); // Groen, 50% transparant
-    public Color mask3Color = new Color(0f, 0f, 1f, 0.5f); // Blauw, 50% transparant
+    public Image panel;
+    public Color mask1Color = new Color(1f, 0f, 0f, 0.5f);
+    public Color mask2Color = new Color(0f, 1f, 0f, 0.5f);
+    public Color mask3Color = new Color(0f, 0f, 1f, 0.5f);
+
+    [Header("Mask States")]
+    public bool isMask1Active = false;
+    public bool isMask2Active = false;
+    public bool isMask3Active = false;
 
     void Start()
     {
@@ -49,10 +54,11 @@ public class MaskScalerUI : MonoBehaviour
 
     void EquipMask(Image mask, Color panelColor, GameObject maskObject)
     {
-        ResetMasks();
+        ResetMasks(); // reset alle maskers en bools
         SetMaskSize(mask, enlargedSize);
         SetPanelColor(panelColor);
         ActivateMaskObject(maskObject);
+        SetMaskBool(maskObject, true); // zet de bijbehorende bool op true
     }
 
     void ResetMasks()
@@ -65,6 +71,11 @@ public class MaskScalerUI : MonoBehaviour
         if (mask1Object != null) mask1Object.SetActive(false);
         if (mask2Object != null) mask2Object.SetActive(false);
         if (mask3Object != null) mask3Object.SetActive(false);
+
+        // Zet alle bools uit
+        isMask1Active = false;
+        isMask2Active = false;
+        isMask3Active = false;
     }
 
     void SetMaskSize(Image mask, Vector2 size)
@@ -89,5 +100,15 @@ public class MaskScalerUI : MonoBehaviour
         {
             maskObject.SetActive(true);
         }
+    }
+
+    void SetMaskBool(GameObject maskObject, bool state)
+    {
+        if (maskObject == mask1Object)
+            isMask1Active = state;
+        else if (maskObject == mask2Object)
+            isMask2Active = state;
+        else if (maskObject == mask3Object)
+            isMask3Active = state;
     }
 }
