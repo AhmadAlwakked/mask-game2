@@ -18,15 +18,8 @@
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
-            };
-
-            struct v2f
-            {
-                float4 pos : SV_POSITION;
-            };
+            struct appdata { float4 vertex : POSITION; };
+            struct v2f { float4 pos : SV_POSITION; };
 
             float _Heat;
             float _Enabled;
@@ -42,12 +35,8 @@
             fixed4 frag(v2f i) : SV_Target
             {
                 if (_Enabled < 0.5)
-                {
-                    // Mask2 uit → toon standaard kleur
                     return _Color;
-                }
 
-                // Mask2 aan → toon warmte (rood/blauw)
                 fixed4 heatCol;
                 heatCol.r = _Heat;
                 heatCol.g = 0;

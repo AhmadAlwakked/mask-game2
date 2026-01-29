@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro; // Belangrijk voor TextMeshPro
 
 public class FirstPersonCamera : MonoBehaviour

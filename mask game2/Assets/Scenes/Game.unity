@@ -243,6 +243,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &4090842
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,6 +477,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &13454594
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +598,7 @@ GameObject:
   - component: {fileID: 23388146}
   - component: {fileID: 23388145}
   - component: {fileID: 23388144}
+  - component: {fileID: 23388147}
   m_Layer: 0
   m_Name: Light (1)
   m_TagString: Untagged
@@ -635,7 +640,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -704,6 +709,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &23388147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23388143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 23388145}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &26695641
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +958,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &30354053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,6 +1422,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &46675532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1703,6 +1729,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &55657309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1957,6 +1985,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &70359092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,6 +2111,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &73766205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,6 +2237,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &77919930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,6 +2363,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &78858152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2489,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &87347650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,6 +2615,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &103071712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2810,6 +2850,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &121754826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,6 +2976,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &126620512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3276,6 +3320,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &137755261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3400,6 +3446,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &144651962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3519,6 +3567,7 @@ GameObject:
   - component: {fileID: 158752300}
   - component: {fileID: 158752299}
   - component: {fileID: 158752298}
+  - component: {fileID: 158752301}
   m_Layer: 0
   m_Name: Light (9)
   m_TagString: Untagged
@@ -3560,7 +3609,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3629,6 +3678,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &158752301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158752297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 158752299}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &168024719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3872,6 +3938,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &180734921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 62120cb2c505eb945bd12d9f21ec42ea, type: 3}
@@ -4219,6 +4287,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &190106193
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,6 +4630,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &217023238
 GameObject:
   m_ObjectHideFlags: 0
@@ -4901,6 +4973,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &221364685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 753731cb8e4bdfb459dc74feaf9e2c45, type: 3}
@@ -5165,6 +5239,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &240595702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,6 +5365,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &240694746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5630,6 +5708,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &246421318
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,6 +5834,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &256624995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,6 +6074,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &265331058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -6121,6 +6205,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &273303913
 GameObject:
   m_ObjectHideFlags: 0
@@ -6245,6 +6331,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &284586879
 GameObject:
   m_ObjectHideFlags: 0
@@ -7097,6 +7185,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &309542288
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,6 +7311,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &311817526
 GameObject:
   m_ObjectHideFlags: 0
@@ -7453,6 +7545,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &327583435
 GameObject:
   m_ObjectHideFlags: 0
@@ -7749,6 +7843,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &329157973
 GameObject:
   m_ObjectHideFlags: 0
@@ -7873,6 +7969,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &333764661
 GameObject:
   m_ObjectHideFlags: 0
@@ -8147,6 +8245,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &343739980
 GameObject:
   m_ObjectHideFlags: 0
@@ -8266,6 +8366,7 @@ GameObject:
   - component: {fileID: 348912537}
   - component: {fileID: 348912536}
   - component: {fileID: 348912535}
+  - component: {fileID: 348912538}
   m_Layer: 0
   m_Name: Light (4)
   m_TagString: Untagged
@@ -8307,7 +8408,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8376,6 +8477,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &348912538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348912534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 348912536}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &360718000
 GameObject:
   m_ObjectHideFlags: 0
@@ -8681,6 +8799,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &380751647
 GameObject:
   m_ObjectHideFlags: 0
@@ -8880,6 +9000,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &394882754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9188,6 +9310,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &411660126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9474,6 +9598,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &430373370
 GameObject:
   m_ObjectHideFlags: 0
@@ -9598,6 +9724,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &434077808
 GameObject:
   m_ObjectHideFlags: 0
@@ -9722,6 +9850,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &442426772
 GameObject:
   m_ObjectHideFlags: 0
@@ -10049,6 +10179,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &452089405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10481,9 +10613,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0.1
+  heat: 1
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &484804000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10754,6 +10888,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &507605725
 GameObject:
   m_ObjectHideFlags: 0
@@ -10878,6 +11014,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &519813551
 GameObject:
   m_ObjectHideFlags: 0
@@ -11002,6 +11140,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &522008887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11508,6 +11648,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &550223540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11947,6 +12089,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &571125474
 GameObject:
   m_ObjectHideFlags: 0
@@ -12287,6 +12431,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &578774180
 GameObject:
   m_ObjectHideFlags: 0
@@ -12411,6 +12557,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &584622799
 GameObject:
   m_ObjectHideFlags: 0
@@ -12535,6 +12683,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &596720325
 GameObject:
   m_ObjectHideFlags: 0
@@ -12659,6 +12809,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &599678305
 GameObject:
   m_ObjectHideFlags: 0
@@ -12783,6 +12935,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &603008988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13072,6 +13226,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &610531937
 GameObject:
   m_ObjectHideFlags: 0
@@ -13555,6 +13711,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &631938747
 GameObject:
   m_ObjectHideFlags: 0
@@ -13679,6 +13837,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &632711395
 GameObject:
   m_ObjectHideFlags: 0
@@ -13911,6 +14071,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &639598977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14492,6 +14654,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &677373564
 GameObject:
   m_ObjectHideFlags: 0
@@ -14651,6 +14815,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!65 &678256128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15410,6 +15576,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &708944516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15722,6 +15890,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &724948336
 GameObject:
   m_ObjectHideFlags: 0
@@ -15846,6 +16016,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &729362322
 GameObject:
   m_ObjectHideFlags: 0
@@ -16079,6 +16251,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &751422345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -16316,6 +16490,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &779936450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16596,6 +16772,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &794771543
 GameObject:
   m_ObjectHideFlags: 0
@@ -17138,6 +17316,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &837881583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17464,6 +17644,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &859032207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1588121248160279453, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
@@ -17482,8 +17664,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heat: 1
-  standardMaterial: {fileID: 2100000, guid: d809fe9072a76024d9355ff4a3775b93, type: 2}
-  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &870938941
 GameObject:
   m_ObjectHideFlags: 0
@@ -17899,6 +18083,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &892081415
 GameObject:
   m_ObjectHideFlags: 0
@@ -18023,6 +18209,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &899596255
 GameObject:
   m_ObjectHideFlags: 0
@@ -18310,6 +18498,7 @@ GameObject:
   - component: {fileID: 923773538}
   - component: {fileID: 923773537}
   - component: {fileID: 923773536}
+  - component: {fileID: 923773539}
   m_Layer: 0
   m_Name: Light (7)
   m_TagString: Untagged
@@ -18351,7 +18540,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -18420,6 +18609,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &923773539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923773535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 923773537}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &945930400
 GameObject:
   m_ObjectHideFlags: 0
@@ -18870,6 +19076,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &960687649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19699,7 +19907,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4fbd725cc99c8aa41af5770ab2bb99e5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -19708,7 +19916,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 10
-  MaxDistance: 50
+  MaxDistance: 30
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -19907,6 +20115,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &978759463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21317,6 +21527,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1121981565
 GameObject:
   m_ObjectHideFlags: 0
@@ -21441,6 +21653,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1125826314
 GameObject:
   m_ObjectHideFlags: 0
@@ -21565,6 +21779,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1126095160
 GameObject:
   m_ObjectHideFlags: 0
@@ -21689,6 +21905,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1128175123
 GameObject:
   m_ObjectHideFlags: 0
@@ -22003,6 +22221,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1149352681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22318,6 +22538,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1176584809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22588,6 +22810,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1198170860
 GameObject:
   m_ObjectHideFlags: 0
@@ -22712,6 +22936,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1199101236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22923,6 +23149,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1206869730
 GameObject:
   m_ObjectHideFlags: 0
@@ -23156,6 +23384,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1215908480
 GameObject:
   m_ObjectHideFlags: 0
@@ -23280,6 +23510,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1233368362
 GameObject:
   m_ObjectHideFlags: 0
@@ -23404,6 +23636,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1238665827
 GameObject:
   m_ObjectHideFlags: 0
@@ -23528,6 +23762,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1243557390
 GameObject:
   m_ObjectHideFlags: 0
@@ -23943,6 +24179,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1274624795
 GameObject:
   m_ObjectHideFlags: 0
@@ -24175,6 +24413,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1304427837
 GameObject:
   m_ObjectHideFlags: 0
@@ -24299,6 +24539,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1305790480
 GameObject:
   m_ObjectHideFlags: 0
@@ -24423,6 +24665,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1306096078
 GameObject:
   m_ObjectHideFlags: 0
@@ -24547,6 +24791,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1310736513
 GameObject:
   m_ObjectHideFlags: 0
@@ -24833,6 +25079,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1345057717
 GameObject:
   m_ObjectHideFlags: 0
@@ -24957,6 +25205,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1354947443
 GameObject:
   m_ObjectHideFlags: 0
@@ -25390,6 +25640,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1364869471
 GameObject:
   m_ObjectHideFlags: 0
@@ -25514,6 +25766,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1375385791
 GameObject:
   m_ObjectHideFlags: 0
@@ -25638,6 +25892,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1378990975
 GameObject:
   m_ObjectHideFlags: 0
@@ -25762,6 +26018,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1379900468
 GameObject:
   m_ObjectHideFlags: 0
@@ -25773,6 +26031,7 @@ GameObject:
   - component: {fileID: 1379900471}
   - component: {fileID: 1379900470}
   - component: {fileID: 1379900469}
+  - component: {fileID: 1379900472}
   m_Layer: 0
   m_Name: Light (6)
   m_TagString: Untagged
@@ -25814,7 +26073,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -25883,6 +26142,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &1379900472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379900468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 1379900470}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1386957084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26164,6 +26440,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1411906573
 GameObject:
   m_ObjectHideFlags: 0
@@ -26288,6 +26566,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1461640496
 GameObject:
   m_ObjectHideFlags: 0
@@ -26472,6 +26752,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1477092124
 GameObject:
   m_ObjectHideFlags: 0
@@ -26704,6 +26986,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1489059536
 GameObject:
   m_ObjectHideFlags: 0
@@ -26828,6 +27112,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1493227994
 GameObject:
   m_ObjectHideFlags: 0
@@ -26948,6 +27234,7 @@ GameObject:
   - component: {fileID: 1504679691}
   - component: {fileID: 1504679690}
   - component: {fileID: 1504679689}
+  - component: {fileID: 1504679692}
   m_Layer: 0
   m_Name: Light
   m_TagString: Untagged
@@ -26989,7 +27276,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -27058,6 +27345,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &1504679692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504679688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 1504679690}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1520650937
 GameObject:
   m_ObjectHideFlags: 0
@@ -27399,6 +27703,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1533673167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27767,6 +28073,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1562734180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27929,6 +28237,7 @@ GameObject:
   - component: {fileID: 1583150597}
   - component: {fileID: 1583150596}
   - component: {fileID: 1583150595}
+  - component: {fileID: 1583150598}
   m_Layer: 0
   m_Name: Light (3)
   m_TagString: Untagged
@@ -27970,7 +28279,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -28039,6 +28348,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &1583150598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583150594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 1583150596}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1598966703
 GameObject:
   m_ObjectHideFlags: 0
@@ -28489,6 +28815,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1612625334
 GameObject:
   m_ObjectHideFlags: 0
@@ -28722,6 +29050,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1614575819
 GameObject:
   m_ObjectHideFlags: 0
@@ -28846,6 +29176,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1620768287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29052,6 +29384,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1633954951
 GameObject:
   m_ObjectHideFlags: 0
@@ -29361,6 +29695,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1646468722
 GameObject:
   m_ObjectHideFlags: 0
@@ -29621,6 +29957,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1648297493
 GameObject:
   m_ObjectHideFlags: 0
@@ -30070,6 +30408,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1675810945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30673,6 +31013,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1688012039
 GameObject:
   m_ObjectHideFlags: 0
@@ -31015,6 +31357,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1706456920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31330,6 +31674,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1717593254
 GameObject:
   m_ObjectHideFlags: 0
@@ -31454,6 +31800,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1719661765
 GameObject:
   m_ObjectHideFlags: 0
@@ -31687,6 +32035,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1739653571
 GameObject:
   m_ObjectHideFlags: 0
@@ -31811,6 +32161,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1741857808
 GameObject:
   m_ObjectHideFlags: 0
@@ -31935,6 +32287,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1753302587
 GameObject:
   m_ObjectHideFlags: 0
@@ -32168,6 +32522,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1757852001
 GameObject:
   m_ObjectHideFlags: 0
@@ -32287,6 +32643,7 @@ GameObject:
   - component: {fileID: 1761810255}
   - component: {fileID: 1761810254}
   - component: {fileID: 1761810253}
+  - component: {fileID: 1761810256}
   m_Layer: 0
   m_Name: Light (5)
   m_TagString: Untagged
@@ -32328,7 +32685,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -32397,6 +32754,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &1761810256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761810252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 1761810254}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1808761402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32706,6 +33080,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1820524092
 GameObject:
   m_ObjectHideFlags: 0
@@ -33047,6 +33423,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1828800503
 GameObject:
   m_ObjectHideFlags: 0
@@ -33171,6 +33549,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1830444724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33352,6 +33732,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1838829246
 GameObject:
   m_ObjectHideFlags: 0
@@ -33584,6 +33966,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1844362184
 GameObject:
   m_ObjectHideFlags: 0
@@ -33892,6 +34276,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1876349299
 GameObject:
   m_ObjectHideFlags: 0
@@ -34016,6 +34402,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1880386277
 GameObject:
   m_ObjectHideFlags: 0
@@ -34217,6 +34605,7 @@ GameObject:
   - component: {fileID: 1890324420}
   - component: {fileID: 1890324419}
   - component: {fileID: 1890324418}
+  - component: {fileID: 1890324421}
   m_Layer: 0
   m_Name: Light (2)
   m_TagString: Untagged
@@ -34258,7 +34647,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -34327,6 +34716,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &1890324421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890324417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 1890324419}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1894442870
 GameObject:
   m_ObjectHideFlags: 0
@@ -35290,6 +35696,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1977040824
 GameObject:
   m_ObjectHideFlags: 0
@@ -35414,6 +35822,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1979099511
 GameObject:
   m_ObjectHideFlags: 0
@@ -35755,6 +36165,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1992125799
 GameObject:
   m_ObjectHideFlags: 0
@@ -36096,6 +36508,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2010560189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36110,7 +36524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2809535511439486149, guid: eb368e9ebab261c4988eea627b1b5b2f, type: 3}
       propertyPath: m_Name
-      value: Canvas (2)
+      value: Masks
       objectReference: {fileID: 0}
     - target: {fileID: 2809535511439486149, guid: eb368e9ebab261c4988eea627b1b5b2f, type: 3}
       propertyPath: m_IsActive
@@ -37260,6 +37674,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2059880350
 GameObject:
   m_ObjectHideFlags: 0
@@ -37493,6 +37909,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2073224701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37643,6 +38061,7 @@ GameObject:
   - component: {fileID: 2089821361}
   - component: {fileID: 2089821360}
   - component: {fileID: 2089821359}
+  - component: {fileID: 2089821362}
   m_Layer: 0
   m_Name: Light (8)
   m_TagString: Untagged
@@ -37684,7 +38103,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 50
+  m_Intensity: 5000
   m_Range: 14087
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -37753,6 +38172,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+--- !u!114 &2089821362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089821358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 2089821360}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2091889561
 GameObject:
   m_ObjectHideFlags: 0
@@ -37986,6 +38422,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2120247721
 GameObject:
   m_ObjectHideFlags: 0
@@ -37999,6 +38437,7 @@ GameObject:
   - component: {fileID: 2120247723}
   - component: {fileID: 2120247725}
   - component: {fileID: 2120247726}
+  - component: {fileID: 2120247727}
   m_Layer: 0
   m_Name: FlashLight
   m_TagString: Untagged
@@ -38308,6 +38747,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2120247727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120247721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 1
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 2120247724}
+  heatLightColor: {r: 0.66538286, g: 0, b: 1, a: 1}
 --- !u!1 &2120646339
 GameObject:
   m_ObjectHideFlags: 0
@@ -38613,6 +39069,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2129336589
 GameObject:
   m_ObjectHideFlags: 0
@@ -38845,6 +39303,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2139925666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39055,6 +39515,8 @@ MonoBehaviour:
   heat: 0
   standardMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  heatLightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &5910515240715164359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39175,6 +39637,10 @@ PrefabInstance:
     - target: {fileID: 7263774473808224304, guid: 156cd8889dbd2884ca16a090cad76347, type: 3}
       propertyPath: m_Name
       value: CashBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 8525965713830468486, guid: 156cd8889dbd2884ca16a090cad76347, type: 3}
+      propertyPath: heat
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

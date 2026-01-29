@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class MaskScalerUI : MonoBehaviour
@@ -53,9 +53,8 @@ public class MaskScalerUI : MonoBehaviour
         ActivateMaskObject(maskObject);
         SetMaskBool(maskObject, true);
 
-        // Schakel heat op basis van mask2
-        bool heatActive = maskObject == mask2Object;
-        SetHeatVision(heatActive);
+        // HeatVision alleen voor mask2
+        SetHeatVision(maskObject == mask2Object);
     }
 
     void ResetMasks()
@@ -101,14 +100,18 @@ public class MaskScalerUI : MonoBehaviour
     }
 
     // ---- HeatVision Logic ----
-    private void SetHeatVision(bool state)
+    private void SetHeatVision(bool active)
     {
-        // Update alle HeatObjects in de scene
         HeatObject[] heatObjects = FindObjectsOfType<HeatObject>();
         foreach (var obj in heatObjects)
         {
-            obj.UpdateMaterial(state); // selecteer hot/normaal materiaal
-            obj.UpdateHeat();          // update heat value
+            if (obj.objectLight != null)
+            {
+                obj.heatLightColor = new Color(1f, 0f, 1f); // paars als HeatVision aan
+            }
+
+            obj.UpdateMaterial(active);
+            obj.UpdateHeat();
         }
     }
 }
