@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using TMPro; // Belangrijk voor TextMeshPro
+using TMPro;
 
 public class FirstPersonCamera : MonoBehaviour
 {
@@ -8,7 +8,8 @@ public class FirstPersonCamera : MonoBehaviour
     public Transform playerBody;
 
     [Header("Flashlight")]
-    public GameObject flashlight;
+    public GameObject flashlightObject; // Het parent object van de Light
+    private Light flashlightLight;       // Het Light component zelf
 
     [Header("Battery Settings")]
     [Range(0, 100)]
@@ -17,7 +18,7 @@ public class FirstPersonCamera : MonoBehaviour
     private float drainTimer = 0f;
 
     [Header("UI")]
-    public TMP_Text batteryText; // Sleep hier je TextMeshPro in
+    public TMP_Text batteryText;
 
     private float xRotation = 0f;
     private bool flashlightOn = false;
@@ -27,8 +28,11 @@ public class FirstPersonCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        if (flashlight != null)
-            flashlight.SetActive(flashlightOn);
+        if (flashlightObject != null)
+            flashlightLight = flashlightObject.GetComponentInChildren<Light>();
+
+        if (flashlightLight != null)
+            flashlightLight.enabled = flashlightOn;
 
         UpdateBatteryUI();
     }
@@ -36,7 +40,7 @@ public class FirstPersonCamera : MonoBehaviour
     void Update()
     {
         HandleMouseLook();
-        HandleFlashlight();
+        HandleFlashlightToggle();
         DrainBattery();
         UpdateBatteryUI();
     }
@@ -53,21 +57,23 @@ public class FirstPersonCamera : MonoBehaviour
         playerBody.Rotate(Vector3.up * mouseX);
     }
 
-    void HandleFlashlight()
+    void HandleFlashlightToggle()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && flashlight != null)
+        if (Input.GetKeyDown(KeyCode.Q) && flashlightLight != null)
         {
             if (battery > 0f)
             {
                 flashlightOn = !flashlightOn;
-                flashlight.SetActive(flashlightOn);
+                flashlightLight.enabled = flashlightOn;
             }
         }
 
+        // Battery leeg → schakel licht uit
         if (battery <= 0f && flashlightOn)
         {
             flashlightOn = false;
-            flashlight.SetActive(false);
+            if (flashlightLight != null)
+                flashlightLight.enabled = false;
         }
     }
 
@@ -88,8 +94,6 @@ public class FirstPersonCamera : MonoBehaviour
     void UpdateBatteryUI()
     {
         if (batteryText != null)
-        {
             batteryText.text = "Battery: " + Mathf.CeilToInt(battery) + "%";
-        }
     }
 }

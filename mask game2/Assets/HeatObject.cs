@@ -5,15 +5,22 @@ public class HeatObject : MonoBehaviour
 {
     [Header("Heat Settings")]
     [Range(0f, 1f)]
-    public float heat = 0.0f; // 0 = koud/blauw, 1 = warm/rood
+    public float heat = 0.0f;
 
     [Header("Materials")]
-    public Material standardMaterial; // optioneel
-    public Material heatMaterial;     // optioneel
+    public Material standardMaterial;
+    public Material heatMaterial;
 
     [Header("Optional Light")]
-    public Light objectLight;         // het Light component
-    public Color heatLightColor = Color.white; // kleur van Light bij HeatVision aan
+    public Light objectLight;
+
+    [Tooltip("Zet AAN als dit object een zaklamp is")]
+    public bool isFlashlight = false;
+
+    [Header("Light Settings")]
+    public Color heatLightColor = new Color(1f, 0f, 1f); // paars bij mask2/HeatVision
+    public float normalIntensity = 1000f;
+    public float flashlightIntensity = 5000f;
 
     private Renderer objectRenderer;
     private bool heatActive = false;
@@ -21,20 +28,19 @@ public class HeatObject : MonoBehaviour
     void Awake()
     {
         objectRenderer = GetComponent<Renderer>();
-        UpdateMaterial(false); // start zonder HeatVision
-        UpdateHeat();
+        ApplyMaterial();
+        ApplyLight();
     }
 
     void Update()
     {
         UpdateHeat();
-        UpdateLight();
+        ApplyLight();
     }
 
     public void UpdateHeat()
     {
-        if (objectRenderer == null) return;
-        if (heatMaterial == null) return;
+        if (objectRenderer == null || heatMaterial == null) return;
 
         MaterialPropertyBlock mpb = new MaterialPropertyBlock();
         objectRenderer.GetPropertyBlock(mpb);
@@ -42,31 +48,33 @@ public class HeatObject : MonoBehaviour
         objectRenderer.SetPropertyBlock(mpb);
     }
 
-    // Zet HeatVision aan/uit
     public void UpdateMaterial(bool active)
     {
         heatActive = active;
-
-        // Materiaal switch
-        if (objectRenderer != null)
-        {
-            if (heatActive && heatMaterial != null)
-                objectRenderer.material = heatMaterial;
-            else if (!heatActive && standardMaterial != null)
-                objectRenderer.material = standardMaterial;
-        }
-
-        // Licht switch
-        UpdateLight();
+        ApplyMaterial();
+        ApplyLight();
     }
 
-    private void UpdateLight()
+    private void ApplyMaterial()
+    {
+        if (objectRenderer == null) return;
+
+        if (heatActive && heatMaterial != null)
+            objectRenderer.material = heatMaterial;
+        else if (!heatActive && standardMaterial != null)
+            objectRenderer.material = standardMaterial;
+    }
+
+    private void ApplyLight()
     {
         if (objectLight == null) return;
 
-        objectLight.intensity = 5000f; // altijd
+        // ✅ Laat Light.enabled ongemoeid! Doet flashlight script
+        // Pas alleen intensiteit en kleur aan
 
-        // Kleur: HeatVision aan → heatLightColor, uit → wit
+        objectLight.intensity = isFlashlight ? flashlightIntensity : normalIntensity;
+
+        // Kleur: alleen aanpassen als HeatVision actief
         objectLight.color = heatActive ? heatLightColor : Color.white;
     }
 }
