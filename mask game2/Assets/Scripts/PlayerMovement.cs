@@ -1,12 +1,14 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float gravity = -9.81f;
+    public AudioSource footstepSource; // audio source op je player
+    public AudioClip footstepClip;     // je voetstapgeluid
+    public float stepInterval = 0.5f;  // elke 0.5 seconde
+
     private CharacterController controller;
-    private Vector3 velocity;
-    public static bool canMove = true;
+    private float stepTimer = 0f;
 
     void Start()
     {
@@ -15,24 +17,27 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (canMove)
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * moveX + transform.forward * moveZ;
+        controller.Move(move * moveSpeed * Time.deltaTime);
+
+        bool isWalking = move.magnitude > 0.1f; // 👈 geen isGrounded meer
+
+        if (isWalking)
         {
-            float moveX = Input.GetAxis("Horizontal");
-            float moveZ = Input.GetAxis("Vertical");
+            stepTimer += Time.deltaTime;
 
-            Vector3 move = transform.right * moveX + transform.forward * moveZ;
-            controller.Move(move * moveSpeed * Time.deltaTime);
-
-            // Simuleer zwaartekracht
-            if (!controller.isGrounded)
+            if (stepTimer >= stepInterval)
             {
-                velocity.y += gravity * Time.deltaTime;
-                controller.Move(velocity * Time.deltaTime);
+                footstepSource.PlayOneShot(footstepClip);
+                stepTimer = 0f;
             }
-            else
-            {
-                velocity.y = 0f;
-            }
+        }
+        else
+        {
+            stepTimer = 0f; // reset timer als je stopt
         }
     }
 }
