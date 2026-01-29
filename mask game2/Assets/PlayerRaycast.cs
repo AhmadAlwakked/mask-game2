@@ -1,14 +1,14 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerRaycast : MonoBehaviour
 {
     [Header("Raycast Settings")]
-    public float maxDistance = 5f;        // maximale afstand voor interactie
-    public float sphereRadius = 0.2f;     // radius van de spherecast voor dot precision
+    public float maxDistance = 5f;
+    public float sphereRadius = 0.2f;
 
     [Header("Crosshair UI")]
-    public Image crosshair;               // je UI dot/crosshair
+    public Image crosshair;
     public Color normalColor = Color.red;
     public Color targetColor = Color.white;
 
@@ -28,35 +28,37 @@ public class PlayerRaycast : MonoBehaviour
         CashObject currentCash = null;
         VaultDoor currentVaultDoor = null;
 
-        // SphereCast vanaf camera richting het midden van het scherm (dot)
         Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-        RaycastHit hit;
+        RaycastHit[] hits = Physics.SphereCastAll(ray, sphereRadius, maxDistance);
 
-        if (Physics.SphereCast(ray, sphereRadius, out hit, maxDistance))
+        foreach (RaycastHit hit in hits)
         {
-            float distance = Vector3.Distance(playerCamera.transform.position, hit.collider.transform.position);
+            // 🔹 negeer de speler
+            if (hit.collider.CompareTag("Player"))
+                continue;
 
-            if (distance <= maxDistance)
+            // 🔹 Cash detectie
+            if (hit.collider.CompareTag("Cash"))
             {
-                // Cash detectie
-                if (hit.collider.CompareTag("Cash"))
-                {
-                    currentCash = hit.collider.GetComponent<CashObject>();
-                    if (currentCash != null)
-                        currentCash.Highlight(true);
-                }
-
-                // Vault detectie (VaultDoor)
-                if (hit.collider.CompareTag("Vault"))
-                {
-                    currentVaultDoor = hit.collider.GetComponent<VaultDoor>();
-                    if (currentVaultDoor != null)
-                        currentVaultDoor.Highlight(true);
-                }
+                currentCash = hit.collider.GetComponent<CashObject>();
+                if (currentCash != null)
+                    currentCash.Highlight(true);
             }
+
+            // 🔹 Vault detectie
+            if (hit.collider.CompareTag("Vault"))
+            {
+                currentVaultDoor = hit.collider.GetComponent<VaultDoor>();
+                if (currentVaultDoor != null)
+                    currentVaultDoor.Highlight(true);
+            }
+
+            // Stop bij het eerste interactable object
+            if (currentCash != null || currentVaultDoor != null)
+                break;
         }
 
-        // Verwijder highlight als object niet meer bekeken wordt
+        // 🔹 Verwijder highlight van vorige objecten
         if (lastHitCash != null && lastHitCash != currentCash)
             lastHitCash.Highlight(false);
 
@@ -66,11 +68,11 @@ public class PlayerRaycast : MonoBehaviour
         lastHitCash = currentCash;
         lastHitVaultDoor = currentVaultDoor;
 
-        // Update crosshair kleur
+        // 🔹 Update crosshair kleur
         if (crosshair != null)
             crosshair.color = (currentCash != null || currentVaultDoor != null) ? targetColor : normalColor;
 
-        // Interactie met E
+        // 🔹 Interactie met E
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (currentCash != null)
@@ -81,7 +83,7 @@ public class PlayerRaycast : MonoBehaviour
 
             if (currentVaultDoor != null)
             {
-                currentVaultDoor.Toggle(); // open of sluit de kluisdeur
+                currentVaultDoor.Toggle();
             }
         }
     }
