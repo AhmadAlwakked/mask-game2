@@ -3,31 +3,41 @@ using UnityEngine;
 public class FirstPersonCamera : MonoBehaviour
 {
     [Header("Mouse Settings")]
-    public float mouseSensitivity = 100f; // Snelheid van de muis
-    public Transform playerBody;           // Player object waar de camera een child van is
+    public float mouseSensitivity = 100f;
+    public Transform playerBody;
 
-    private float xRotation = 0f;          // Voor verticale rotatie
+    [Header("Flashlight")]
+    public GameObject flashlight; // Sleep hier je flashlight object in
+
+    private float xRotation = 0f;
+    private bool flashlightOn = false;
 
     void Start()
     {
-        // Cursor verbergen en vastzetten in het midden van het scherm
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        if (flashlight != null)
+            flashlight.SetActive(flashlightOn);
     }
 
     void Update()
     {
-        // Muis input
+        // Mouse look
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        // Verticaal kijken (op en neer)
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f); // Beperk naar boven/onder
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
-
-        // Horizontaal draaien (links/rechts) van de player
         playerBody.Rotate(Vector3.up * mouseX);
+
+        // Toggle flashlight
+        if (Input.GetKeyDown(KeyCode.Q) && flashlight != null)
+        {
+            flashlightOn = !flashlightOn;
+            flashlight.SetActive(flashlightOn);
+        }
     }
 }
