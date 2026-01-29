@@ -4,8 +4,8 @@ using UnityEngine.UI;
 public class PlayerRaycast : MonoBehaviour
 {
     [Header("Raycast Settings")]
-    public float maxDistance = 5f;
-    public string targetTag = "Cash";
+    public float maxDistance = 5f;        // Maximale afstand om interactie te hebben
+    public string targetTag = "Cash";     // Tag van cash objecten
 
     [Header("Crosshair UI")]
     public Image crosshair;
@@ -31,27 +31,32 @@ public class PlayerRaycast : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, maxDistance))
         {
+            // Check of het een CashObject is
             if (hit.collider.CompareTag(targetTag))
+            {
                 currentCash = hit.collider.GetComponent<CashObject>();
+
+                // Als het object dichtbij genoeg is, maak het actief/highlight
+                if (currentCash != null)
+                {
+                    currentCash.Highlight(true);
+                }
+            }
         }
 
-        // Alleen update als het target veranderd is
-        if (currentCash != lastHitCash)
+        // Verwijder highlight van vorige als hij niet meer wordt bekeken
+        if (lastHitCash != null && lastHitCash != currentCash)
         {
-            if (lastHitCash != null)
-                lastHitCash.Highlight(false);
-
-            if (currentCash != null)
-                currentCash.Highlight(true);
-
-            lastHitCash = currentCash;
+            lastHitCash.Highlight(false);
         }
+
+        lastHitCash = currentCash;
 
         // Update crosshair
         if (crosshair != null)
             crosshair.color = (currentCash != null) ? targetColor : normalColor;
 
-        // Cash oppakken
+        // Cash oppakken met E
         if (currentCash != null && Input.GetKeyDown(KeyCode.E))
         {
             currentCash.Collect();

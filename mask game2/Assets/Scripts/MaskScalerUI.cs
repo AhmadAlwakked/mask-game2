@@ -18,10 +18,10 @@ public class MaskScalerUI : MonoBehaviour
     public Vector2 enlargedSize = new Vector2(130, 130);
 
     [Header("Panel Settings")]
-    public Image panel; // Panel dat van kleur verandert
-    public Color mask1Color = new Color(1f, 0f, 0f, 0.5f); // Rood, 50% transparant
-    public Color mask2Color = new Color(0f, 1f, 0f, 0.5f); // Groen, 50% transparant
-    public Color mask3Color = new Color(0f, 0f, 1f, 0.5f); // Blauw, 50% transparant
+    public Image panel;
+    public Color mask1Color = new Color(1f, 0f, 0f, 0.5f);
+    public Color mask2Color = new Color(0f, 1f, 0f, 0.5f);
+    public Color mask3Color = new Color(0f, 0f, 1f, 0.5f);
 
     [Header("Mask States")]
     public bool isMask1Active = false;
@@ -30,13 +30,11 @@ public class MaskScalerUI : MonoBehaviour
 
     void Start()
     {
-        // Mask1 automatisch equipt bij spelstart
         EquipMask(mask1, mask1Color, mask1Object);
     }
 
     void Update()
     {
-        // Keys om masks te switchen
         if (Input.GetKeyDown(KeyCode.Alpha1))
             EquipMask(mask1, mask1Color, mask1Object);
 
@@ -47,17 +45,19 @@ public class MaskScalerUI : MonoBehaviour
             EquipMask(mask3, mask3Color, mask3Object);
     }
 
-    // Equip een masker: vergroot, verander panelkleur, activeer masker object en update bool
     void EquipMask(Image mask, Color panelColor, GameObject maskObject)
     {
-        ResetMasks(); // reset alle masks en bools
+        ResetMasks();
         SetMaskSize(mask, enlargedSize);
         SetPanelColor(panelColor);
         ActivateMaskObject(maskObject);
         SetMaskBool(maskObject, true);
+
+        // Schakel heat op basis van mask2
+        bool heatActive = maskObject == mask2Object;
+        SetHeatVision(heatActive);
     }
 
-    // Zet alle masks terug naar normale grootte en zet masker objects uit
     void ResetMasks()
     {
         SetMaskSize(mask1, normalSize);
@@ -68,10 +68,11 @@ public class MaskScalerUI : MonoBehaviour
         if (mask2Object != null) mask2Object.SetActive(false);
         if (mask3Object != null) mask3Object.SetActive(false);
 
-        // Zet alle bools uit
         isMask1Active = false;
         isMask2Active = false;
         isMask3Active = false;
+
+        SetHeatVision(false);
     }
 
     void SetMaskSize(Image mask, Vector2 size)
@@ -97,5 +98,17 @@ public class MaskScalerUI : MonoBehaviour
         if (maskObject == mask1Object) isMask1Active = state;
         else if (maskObject == mask2Object) isMask2Active = state;
         else if (maskObject == mask3Object) isMask3Active = state;
+    }
+
+    // ---- HeatVision Logic ----
+    private void SetHeatVision(bool state)
+    {
+        // Update alle HeatObjects in de scene
+        HeatObject[] heatObjects = FindObjectsOfType<HeatObject>();
+        foreach (var obj in heatObjects)
+        {
+            obj.UpdateMaterial(state); // selecteer hot/normaal materiaal
+            obj.UpdateHeat();          // update heat value
+        }
     }
 }
