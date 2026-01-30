@@ -248,6 +248,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &4090842
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +486,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &13454594
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +737,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &26695641
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +975,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &30354053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,6 +1490,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &46675532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1871,6 +1876,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &55657309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2139,6 +2145,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &70359092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2268,6 +2275,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &73766205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2397,6 +2405,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &77919930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2526,6 +2535,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &78858152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,6 +2665,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &87347650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,6 +2795,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &103071712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3022,6 +3034,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &121754826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,6 +3164,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &126620512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,6 +3512,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &135314878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3726,6 +3741,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &142520704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -3751,6 +3767,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &144651962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,6 +4018,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &168024719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4249,6 +4267,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &180734921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 62120cb2c505eb945bd12d9f21ec42ea, type: 3}
@@ -4604,6 +4623,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &190106193
 GameObject:
   m_ObjectHideFlags: 0
@@ -4977,6 +4997,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &212748720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -5002,6 +5023,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &217023238
 GameObject:
   m_ObjectHideFlags: 0
@@ -5348,6 +5370,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &221364685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 753731cb8e4bdfb459dc74feaf9e2c45, type: 3}
@@ -5513,6 +5536,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &230349765
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +5666,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &240595702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5771,6 +5796,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &240694746
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,6 +6143,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &246421318
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6273,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &256624995
 GameObject:
   m_ObjectHideFlags: 0
@@ -6484,6 +6512,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!4 &265331058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -6618,6 +6647,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &273303913
 GameObject:
   m_ObjectHideFlags: 0
@@ -6747,6 +6777,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &283904431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7682,6 +7713,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &309542288
 GameObject:
   m_ObjectHideFlags: 0
@@ -7811,6 +7843,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &311817526
 GameObject:
   m_ObjectHideFlags: 0
@@ -8048,6 +8081,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &327583435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8349,6 +8383,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &329157973
 GameObject:
   m_ObjectHideFlags: 0
@@ -8478,6 +8513,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &333764661
 GameObject:
   m_ObjectHideFlags: 0
@@ -8757,6 +8793,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &343739980
 GameObject:
   m_ObjectHideFlags: 0
@@ -9007,6 +9044,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &360718000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9317,6 +9355,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &380751647
 GameObject:
   m_ObjectHideFlags: 0
@@ -9417,6 +9456,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &388988012
 GameObject:
   m_ObjectHideFlags: 0
@@ -9546,6 +9586,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &394882754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9859,6 +9900,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &411660126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9964,6 +10006,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &418344469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9984,6 +10027,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &424228195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10198,6 +10242,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &430373370
 GameObject:
   m_ObjectHideFlags: 0
@@ -10327,6 +10372,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &434077808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10456,6 +10502,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &440950447 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -10818,6 +10865,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &452089405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11345,6 +11393,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &507605725
 GameObject:
   m_ObjectHideFlags: 0
@@ -11474,6 +11523,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &519813551
 GameObject:
   m_ObjectHideFlags: 0
@@ -11603,6 +11653,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &522008887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11813,6 +11864,141 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529573499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &530069814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99440885
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10537595
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.005497087
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0041006147
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 601
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 663
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.17712928
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2525721
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.55880886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7697826
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 50.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -67.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 119.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8290929460576218912, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    - {fileID: 4821672638049869254, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 530069816}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &530069815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 530069814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &530069816
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530069815}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &532972136
 GameObject:
   m_ObjectHideFlags: 0
@@ -12128,6 +12314,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &550223540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12258,7 +12445,7 @@ MonoBehaviour:
   playerBody: {fileID: 960840291}
   flashlightObject: {fileID: 2120247721}
   battery: 100
-  drainInterval: 3
+  drainInterval: 2
   batteryText: {fileID: 284787028}
 --- !u!114 &563395423
 MonoBehaviour:
@@ -12572,6 +12759,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &571125474
 GameObject:
   m_ObjectHideFlags: 0
@@ -12917,6 +13105,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &578774180
 GameObject:
   m_ObjectHideFlags: 0
@@ -13046,6 +13235,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &584622799
 GameObject:
   m_ObjectHideFlags: 0
@@ -13175,6 +13365,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &585247654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -13200,6 +13391,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &596720325
 GameObject:
   m_ObjectHideFlags: 0
@@ -13329,6 +13521,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &599678305
 GameObject:
   m_ObjectHideFlags: 0
@@ -13458,6 +13651,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &599851829
 GameObject:
   m_ObjectHideFlags: 0
@@ -13797,6 +13991,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &610531937
 GameObject:
   m_ObjectHideFlags: 0
@@ -14375,6 +14570,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &631938747
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,6 +14700,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &632711395
 GameObject:
   m_ObjectHideFlags: 0
@@ -14741,6 +14938,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &639598977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15336,6 +15534,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &677373564
 GameObject:
   m_ObjectHideFlags: 0
@@ -15500,6 +15699,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!65 &678256128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16305,6 +16505,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &708944516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16622,6 +16823,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &724948336
 GameObject:
   m_ObjectHideFlags: 0
@@ -16751,6 +16953,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &729362322
 GameObject:
   m_ObjectHideFlags: 0
@@ -16989,6 +17192,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &748829040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17071,6 +17275,145 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
   m_PrefabInstance: {fileID: 1808761402}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &754997791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 277.25412
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7608032
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 248.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754997796}
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754997795}
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 754997794}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &754997792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 754997791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &754997793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 754997791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754997794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754997792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
+--- !u!114 &754997795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754997792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 2100000, guid: d7aa1d151213c6f4085028a870590e62, type: 2}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
+--- !u!114 &754997796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754997793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 2100000, guid: d7aa1d151213c6f4085028a870590e62, type: 2}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &757120576
 GameObject:
   m_ObjectHideFlags: 0
@@ -17308,6 +17651,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &765882123 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -17338,6 +17682,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &779936450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17623,6 +17968,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &794771543
 GameObject:
   m_ObjectHideFlags: 0
@@ -17635,6 +17981,7 @@ GameObject:
   - component: {fileID: 794771545}
   - component: {fileID: 794771544}
   - component: {fileID: 794771547}
+  - component: {fileID: 794771548}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -17749,6 +18096,27 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 371b9ec4c9488cf46ae5839546276834, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &794771548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794771543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 794771545}
 --- !u!1 &799791334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -18230,6 +18598,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &837881583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18561,6 +18930,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &859032207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1588121248160279453, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
@@ -18586,6 +18956,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &861182357 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8487033363294611016, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
@@ -18611,6 +18982,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &870938941
 GameObject:
   m_ObjectHideFlags: 0
@@ -18745,6 +19117,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &875512065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18765,6 +19138,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &878751485
 GameObject:
   m_ObjectHideFlags: 0
@@ -19076,6 +19450,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &892081415
 GameObject:
   m_ObjectHideFlags: 0
@@ -19205,6 +19580,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &899596255
 GameObject:
   m_ObjectHideFlags: 0
@@ -19510,6 +19886,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &923773535
 GameObject:
   m_ObjectHideFlags: 0
@@ -19652,6 +20029,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &945930400
 GameObject:
   m_ObjectHideFlags: 0
@@ -20134,6 +20512,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &957278196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2387608404541926860, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -20159,6 +20538,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &960687649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20874,6 +21254,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &973239628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21246,6 +21627,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &978759463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21337,6 +21719,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &993117832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21838,6 +22221,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1044101838
 GameObject:
   m_ObjectHideFlags: 0
@@ -22411,6 +22795,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1100919456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22431,6 +22816,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1114733552
 GameObject:
   m_ObjectHideFlags: 0
@@ -22771,6 +23157,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1121981565
 GameObject:
   m_ObjectHideFlags: 0
@@ -22900,6 +23287,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1125826314
 GameObject:
   m_ObjectHideFlags: 0
@@ -23029,6 +23417,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1126095160
 GameObject:
   m_ObjectHideFlags: 0
@@ -23158,6 +23547,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1128175123
 GameObject:
   m_ObjectHideFlags: 0
@@ -23480,6 +23870,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1149352681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23800,6 +24191,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1176584809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24075,6 +24467,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1198170860
 GameObject:
   m_ObjectHideFlags: 0
@@ -24204,6 +24597,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1199101236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24423,6 +24817,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1206869730
 GameObject:
   m_ObjectHideFlags: 0
@@ -24661,6 +25056,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1215908480
 GameObject:
   m_ObjectHideFlags: 0
@@ -24790,6 +25186,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1219649974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -24842,6 +25239,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1233368362
 GameObject:
   m_ObjectHideFlags: 0
@@ -24971,6 +25369,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1238665827
 GameObject:
   m_ObjectHideFlags: 0
@@ -25100,6 +25499,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1243557390
 GameObject:
   m_ObjectHideFlags: 0
@@ -25520,6 +25920,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1274624795
 GameObject:
   m_ObjectHideFlags: 0
@@ -25959,6 +26360,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1295193089
 GameObject:
   m_ObjectHideFlags: 0
@@ -26088,6 +26490,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1304427837
 GameObject:
   m_ObjectHideFlags: 0
@@ -26217,6 +26620,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1305790480
 GameObject:
   m_ObjectHideFlags: 0
@@ -26346,6 +26750,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1306096078
 GameObject:
   m_ObjectHideFlags: 0
@@ -26475,6 +26880,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1310023724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -26500,6 +26906,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1310736513
 GameObject:
   m_ObjectHideFlags: 0
@@ -26709,6 +27116,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1326684014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26841,6 +27249,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1343459248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2387608404541926860, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -26866,6 +27275,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1345057717
 GameObject:
   m_ObjectHideFlags: 0
@@ -26995,11 +27405,147 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1347632009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
   m_PrefabInstance: {fileID: 1620768287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1351737853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99440885
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10537595
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.005497087
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0041006147
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 207.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7608032
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 248.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8290929460576218912, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    - {fileID: 4821672638049869254, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1351737855}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &1351737854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1351737853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1351737855
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351737854}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1353208641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -27472,6 +28018,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1364578435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -27606,6 +28153,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1375385791
 GameObject:
   m_ObjectHideFlags: 0
@@ -27735,6 +28283,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1378990975
 GameObject:
   m_ObjectHideFlags: 0
@@ -27864,6 +28413,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1379900468
 GameObject:
   m_ObjectHideFlags: 0
@@ -28006,6 +28556,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1386957084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28317,6 +28868,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1402001299
 GameObject:
   m_ObjectHideFlags: 0
@@ -28521,6 +29073,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1412052645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -28531,6 +29084,145 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
   m_PrefabInstance: {fileID: 2073224701}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1435504792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 177.04259
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 890.1506
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1435504797}
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1435504796}
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1435504795}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &1435504793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1435504792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1435504794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1435504792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1435504795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435504793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 0}
+  heatMaterial: {fileID: 0}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
+--- !u!114 &1435504796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435504793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 2100000, guid: d7aa1d151213c6f4085028a870590e62, type: 2}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
+--- !u!114 &1435504797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435504794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 2100000, guid: d7aa1d151213c6f4085028a870590e62, type: 2}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1451873641 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -28556,6 +29248,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1461640496
 GameObject:
   m_ObjectHideFlags: 0
@@ -28641,6 +29334,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1467946575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28661,6 +29355,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1471723122
 GameObject:
   m_ObjectHideFlags: 0
@@ -28790,6 +29485,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1477092124
 GameObject:
   m_ObjectHideFlags: 0
@@ -29027,6 +29723,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1489059536
 GameObject:
   m_ObjectHideFlags: 0
@@ -29156,6 +29853,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1493227994
 GameObject:
   m_ObjectHideFlags: 0
@@ -29407,6 +30105,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1520650937
 GameObject:
   m_ObjectHideFlags: 0
@@ -29753,6 +30452,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1533673167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29952,6 +30652,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1542848129
 GameObject:
   m_ObjectHideFlags: 0
@@ -30160,6 +30861,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1549047423 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -30185,6 +30887,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1549047432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30205,6 +30908,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1562734180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30498,6 +31202,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1598966703
 GameObject:
   m_ObjectHideFlags: 0
@@ -30953,6 +31658,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1612625334
 GameObject:
   m_ObjectHideFlags: 0
@@ -31191,6 +31897,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1614575819
 GameObject:
   m_ObjectHideFlags: 0
@@ -31320,6 +32027,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1620768287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31556,6 +32264,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1633954951
 GameObject:
   m_ObjectHideFlags: 0
@@ -31870,6 +32579,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1646468722
 GameObject:
   m_ObjectHideFlags: 0
@@ -32135,6 +32845,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1648297493
 GameObject:
   m_ObjectHideFlags: 0
@@ -32688,6 +33399,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1675810945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33332,6 +34044,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1688012039
 GameObject:
   m_ObjectHideFlags: 0
@@ -33679,6 +34392,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1706456920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33811,6 +34525,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1712484835
 GameObject:
   m_ObjectHideFlags: 0
@@ -34076,6 +34791,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1717593254
 GameObject:
   m_ObjectHideFlags: 0
@@ -34205,6 +34921,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1719661765
 GameObject:
   m_ObjectHideFlags: 0
@@ -34443,6 +35160,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1739653571
 GameObject:
   m_ObjectHideFlags: 0
@@ -34572,6 +35290,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1741857808
 GameObject:
   m_ObjectHideFlags: 0
@@ -34701,6 +35420,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1753302587
 GameObject:
   m_ObjectHideFlags: 0
@@ -34939,6 +35659,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1757852001
 GameObject:
   m_ObjectHideFlags: 0
@@ -35189,6 +35910,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1770955087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -35533,6 +36255,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1820524092
 GameObject:
   m_ObjectHideFlags: 0
@@ -35879,6 +36602,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1828800503
 GameObject:
   m_ObjectHideFlags: 0
@@ -36008,6 +36732,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1830444724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36203,6 +36928,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1838829246
 GameObject:
   m_ObjectHideFlags: 0
@@ -36440,6 +37166,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1844362184
 GameObject:
   m_ObjectHideFlags: 0
@@ -36624,6 +37351,93 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856592323}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1859749022
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 97.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6929729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6929729
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.14067206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.14067206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1859749027}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &1859749024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1859749022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1859749027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859749024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heat: 0
+  standardMaterial: {fileID: 2100000, guid: d7aa1d151213c6f4085028a870590e62, type: 2}
+  heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
+  objectLight: {fileID: 0}
+  isFlashlight: 0
+  heatLightColor: {r: 1, g: 0, b: 1, a: 1}
+  normalIntensity: 1000
+  flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1866846742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -36649,6 +37463,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1866846751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36669,6 +37484,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1872942385
 GameObject:
   m_ObjectHideFlags: 0
@@ -36798,6 +37614,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1876349299
 GameObject:
   m_ObjectHideFlags: 0
@@ -36927,6 +37744,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1880386277
 GameObject:
   m_ObjectHideFlags: 0
@@ -37035,6 +37853,141 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880386277}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1883503475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99440885
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10537595
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.005497087
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0041006147
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 728936290452512684, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 499.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7608032
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 261.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.28413266
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.27549118
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5521541
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.73382497
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 40.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -71.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 3836090953147687402, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 107.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: m_Name
+      value: kluisjeFinal (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8290929460576218912, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    - {fileID: 4821672638049869254, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1883503477}
+  m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &1883503476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1883503475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1883503477
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883503476}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1889472380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37284,6 +38237,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1894442870
 GameObject:
   m_ObjectHideFlags: 0
@@ -38025,6 +38979,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1912078556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38045,6 +39000,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1915537368 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4273738423670967649, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
@@ -38070,6 +39026,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &1920481885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38246,6 +39203,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1956841471
 GameObject:
   m_ObjectHideFlags: 0
@@ -38375,6 +39333,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1957714877
 GameObject:
   m_ObjectHideFlags: 0
@@ -38436,6 +39395,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!114 &1957813824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38456,6 +39416,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1963364072
 GameObject:
   m_ObjectHideFlags: 0
@@ -38687,6 +39648,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1979099511
 GameObject:
   m_ObjectHideFlags: 0
@@ -39033,6 +39995,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &1992125799
 GameObject:
   m_ObjectHideFlags: 0
@@ -39406,6 +40369,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &2010560189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40579,6 +41543,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2059880350
 GameObject:
   m_ObjectHideFlags: 0
@@ -40817,6 +41782,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &2073224701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40949,6 +41915,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &2077551608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41157,6 +42124,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 100
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2091889561
 GameObject:
   m_ObjectHideFlags: 0
@@ -41395,6 +42363,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2101551652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5942619810320883640, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -41420,6 +42389,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2120247721
 GameObject:
   m_ObjectHideFlags: 0
@@ -41763,6 +42733,7 @@ MonoBehaviour:
   heatLightColor: {r: 0.66538286, g: 0, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2120646339
 GameObject:
   m_ObjectHideFlags: 0
@@ -42073,6 +43044,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1 &2129336589
 GameObject:
   m_ObjectHideFlags: 0
@@ -42310,6 +43282,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &2139925666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42542,6 +43515,7 @@ MonoBehaviour:
   heatLightColor: {r: 1, g: 1, b: 1, a: 1}
   normalIntensity: 1000
   flashlightIntensity: 5000
+  terrain: {fileID: 0}
 --- !u!1001 &5910515240715164359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42727,6 +43701,7 @@ SceneRoots:
   - {fileID: 1643900701}
   - {fileID: 973239628}
   - {fileID: 5910515240715164359}
+  - {fileID: 1830444724}
   - {fileID: 603008988}
   - {fileID: 978759463}
   - {fileID: 1533673167}
@@ -42734,8 +43709,13 @@ SceneRoots:
   - {fileID: 639598977}
   - {fileID: 2077551608}
   - {fileID: 522008887}
-  - {fileID: 1830444724}
   - {fileID: 1361896545}
+  - {fileID: 1435504792}
+  - {fileID: 754997791}
+  - {fileID: 1859749022}
+  - {fileID: 1351737853}
+  - {fileID: 1883503475}
+  - {fileID: 530069814}
   - {fileID: 1675810945}
   - {fileID: 993117832}
   - {fileID: 748829040}

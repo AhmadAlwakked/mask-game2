@@ -4,7 +4,7 @@ using UnityEditor;
 #endif
 using UnityEngine.AI;
 
-[ExecuteAlways] // Zorgt dat het ook werkt in de editor
+[ExecuteAlways]
 public class MonsterChase : MonoBehaviour
 {
     [Header("Movement Speeds")]
@@ -27,9 +27,15 @@ public class MonsterChase : MonoBehaviour
     // Raycast punten voor gizmos
     private Vector3[] rayPoints;
 
+    // Referentie naar player movement
+    private PlayerMovement playerMovement;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        if (player != null)
+            playerMovement = player.GetComponent<PlayerMovement>();
+
         PickNewDestination();
     }
 
@@ -38,25 +44,39 @@ public class MonsterChase : MonoBehaviour
         // Check of agent actief is op de NavMesh
         if (player == null || agent == null || !agent.isOnNavMesh) return;
 
-        // Player detection
-        if (IsPlayerInRadius())
+        // Als de player "inside" is, volg niet
+        if (playerMovement != null && playerMovement.inside)
         {
-            // Sprint en volg player
-            isSprinting = true;
-            agent.speed = sprintSpeed;
-            agent.SetDestination(player.position);
-        }
-        else
-        {
-            // Wandering
-            if (isSprinting) timer = wanderInterval;
+            // Stop sprinten en volg niet
             isSprinting = false;
             agent.speed = walkSpeed;
 
+            // Blijf normaal wandelen
             timer += Time.deltaTime;
-
             if (timer >= wanderInterval || agent.remainingDistance <= agent.stoppingDistance)
                 PickNewDestination();
+        }
+        else
+        {
+            // Player detection
+            if (IsPlayerInRadius())
+            {
+                // Sprint en volg player
+                isSprinting = true;
+                agent.speed = sprintSpeed;
+                agent.SetDestination(player.position);
+            }
+            else
+            {
+                // Wandering
+                if (isSprinting) timer = wanderInterval;
+                isSprinting = false;
+                agent.speed = walkSpeed;
+
+                timer += Time.deltaTime;
+                if (timer >= wanderInterval || agent.remainingDistance <= agent.stoppingDistance)
+                    PickNewDestination();
+            }
         }
 
         // Update FOV rays voor Gizmos
