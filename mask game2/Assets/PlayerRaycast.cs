@@ -13,8 +13,11 @@ public class PlayerRaycast : MonoBehaviour
     public Color targetColor = Color.white;
 
     private Camera playerCamera;
+
+    // Houd bij wat we eerder hebben geraakt
     private CashObject lastHitCash;
     private VaultDoor lastHitVaultDoor;
+    private PianoObject lastHitPiano;
 
     void Start()
     {
@@ -27,15 +30,18 @@ public class PlayerRaycast : MonoBehaviour
     {
         CashObject currentCash = null;
         VaultDoor currentVaultDoor = null;
+        PianoObject currentPiano = null;
 
         Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         RaycastHit[] hits = Physics.SphereCastAll(ray, sphereRadius, maxDistance);
 
         foreach (RaycastHit hit in hits)
         {
+            // Negeer de speler zelf
             if (hit.collider.CompareTag("Player"))
                 continue;
 
+            // Cash detectie
             if (hit.collider.CompareTag("Cash"))
             {
                 currentCash = hit.collider.GetComponent<CashObject>();
@@ -43,6 +49,7 @@ public class PlayerRaycast : MonoBehaviour
                     currentCash.Highlight(true);
             }
 
+            // Vault detectie
             if (hit.collider.CompareTag("Vault"))
             {
                 currentVaultDoor = hit.collider.GetComponent<VaultDoor>();
@@ -50,22 +57,38 @@ public class PlayerRaycast : MonoBehaviour
                     currentVaultDoor.Highlight(true);
             }
 
-            if (currentCash != null || currentVaultDoor != null)
+            // Piano detectie (ook als collider child van piano is)
+            if (hit.collider.CompareTag("Piano"))
+            {
+                currentPiano = hit.collider.GetComponentInParent<PianoObject>();
+                if (currentPiano != null)
+                    currentPiano.Highlight(true);
+            }
+
+            // Stop bij eerste interactable
+            if (currentCash != null || currentVaultDoor != null || currentPiano != null)
                 break;
         }
 
+        // Verwijder highlight van vorige objecten die we nu niet meer raken
         if (lastHitCash != null && lastHitCash != currentCash)
             lastHitCash.Highlight(false);
 
         if (lastHitVaultDoor != null && lastHitVaultDoor != currentVaultDoor)
             lastHitVaultDoor.Highlight(false);
 
+        if (lastHitPiano != null && lastHitPiano != currentPiano)
+            lastHitPiano.Highlight(false);
+
         lastHitCash = currentCash;
         lastHitVaultDoor = currentVaultDoor;
+        lastHitPiano = currentPiano;
 
+        // Update crosshair kleur
         if (crosshair != null)
-            crosshair.color = (currentCash != null || currentVaultDoor != null) ? targetColor : normalColor;
+            crosshair.color = (currentCash != null || currentVaultDoor != null || currentPiano != null) ? targetColor : normalColor;
 
+        // Interactie met E
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (currentCash != null)
@@ -77,6 +100,11 @@ public class PlayerRaycast : MonoBehaviour
             if (currentVaultDoor != null)
             {
                 currentVaultDoor.Toggle();
+            }
+
+            if (currentPiano != null)
+            {
+                currentPiano.TogglePiano();
             }
         }
     }

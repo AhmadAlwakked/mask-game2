@@ -9,6 +9,7 @@ TagManager:
   - Inside
   - Wall
   - Monster
+  - Piano
   layers:
   - Default
   - TransparentFX
