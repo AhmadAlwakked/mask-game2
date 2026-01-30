@@ -13341,6 +13341,8 @@ MonoBehaviour:
   mouseSensitivity: 500
   playerBody: {fileID: 960840291}
   flashlightObject: {fileID: 2120247721}
+  flashlightAudio: {fileID: 2120247725}
+  toggleSound: {fileID: 8300000, guid: 5b7b8ff14737c4549996de08c08ddf3f, type: 3}
   battery: 100
   drainInterval: 2
   batteryText: {fileID: 284787028}
@@ -18816,7 +18818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -20188,7 +20190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -21155,7 +21157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -22589,7 +22591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -22658,10 +22660,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6665640812625201070, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17458eaa53eaaab4a980487115d764ab, type: 2}
+    - target: {fileID: -6428998934386410677, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 41354193d8f9f0c41ab6e11aa794788a, type: 2}
+    - target: {fileID: -5894917520607770039, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17458eaa53eaaab4a980487115d764ab, type: 2}
+    - target: {fileID: -5520194731489056442, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 41354193d8f9f0c41ab6e11aa794788a, type: 2}
+    - target: {fileID: -3056041028626425089, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17458eaa53eaaab4a980487115d764ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
       propertyPath: m_Name
       value: Piano
       objectReference: {fileID: 0}
+    - target: {fileID: 7095925086610601642, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17458eaa53eaaab4a980487115d764ab, type: 2}
+    - target: {fileID: 7418098771544918504, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 17458eaa53eaaab4a980487115d764ab, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22757,7 +22787,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 4fbd725cc99c8aa41af5770ab2bb99e5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.75
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22766,7 +22796,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 10
-  MaxDistance: 30
+  MaxDistance: 100
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -26843,7 +26873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -32655,11 +32685,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vault: {fileID: 1326012588}
   simulationRuns: 10000
-  chance1: 30.27
-  chance2: 12
-  chance3: 4.76
-  chance4: 1.77
-  chance5: 1.32
+  chance1: 30.09
+  chance2: 12.23
+  chance3: 4.86
+  chance4: 1.91
+  chance5: 1.38
 --- !u!1001 &1562734180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36468,7 +36498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}
@@ -41270,7 +41300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f711a6bccc33944a17a7d95e92e519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heat: 0
+  heat: 0.25
   standardMaterial: {fileID: 6418528434697208582, guid: 37d978ac1870c5a428c0f102d7cbb4cf, type: 3}
   heatMaterial: {fileID: 2100000, guid: ccf96c097fa9276469e7df26d416a36c, type: 2}
   objectLight: {fileID: 0}

@@ -8,8 +8,12 @@ public class FirstPersonCamera : MonoBehaviour
     public Transform playerBody;
 
     [Header("Flashlight")]
-    public GameObject flashlightObject; // Het parent object van de Light
-    private Light flashlightLight;       // Het Light component zelf
+    public GameObject flashlightObject; // Parent object van de flashlight
+    private Light flashlightLight;
+
+    [Header("Flashlight Audio")]
+    public AudioSource flashlightAudio;     // AudioSource op flashlight of camera
+    public AudioClip toggleSound;            // Klik / aan-uit geluid
 
     [Header("Battery Settings")]
     [Range(0, 100)]
@@ -45,6 +49,7 @@ public class FirstPersonCamera : MonoBehaviour
         UpdateBatteryUI();
     }
 
+    // ================= MOUSE LOOK =================
     void HandleMouseLook()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
@@ -57,6 +62,7 @@ public class FirstPersonCamera : MonoBehaviour
         playerBody.Rotate(Vector3.up * mouseX);
     }
 
+    // ================= FLASHLIGHT =================
     void HandleFlashlightToggle()
     {
         if (Input.GetKeyDown(KeyCode.Q) && flashlightLight != null)
@@ -65,18 +71,24 @@ public class FirstPersonCamera : MonoBehaviour
             {
                 flashlightOn = !flashlightOn;
                 flashlightLight.enabled = flashlightOn;
+
+                // 🔊 GELUID AFSPELEN BIJ TOGGLE
+                if (flashlightAudio != null && toggleSound != null)
+                {
+                    flashlightAudio.PlayOneShot(toggleSound);
+                }
             }
         }
 
-        // Battery leeg → schakel licht uit
+        // Battery leeg → forceer uit
         if (battery <= 0f && flashlightOn)
         {
             flashlightOn = false;
-            if (flashlightLight != null)
-                flashlightLight.enabled = false;
+            flashlightLight.enabled = false;
         }
     }
 
+    // ================= BATTERY =================
     void DrainBattery()
     {
         if (flashlightOn && battery > 0f)
