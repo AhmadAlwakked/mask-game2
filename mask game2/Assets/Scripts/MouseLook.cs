@@ -8,12 +8,12 @@ public class FirstPersonCamera : MonoBehaviour
     public Transform playerBody;
 
     [Header("Flashlight")]
-    public GameObject flashlightObject; // Parent object van de flashlight
+    public GameObject flashlightObject;
     private Light flashlightLight;
 
     [Header("Flashlight Audio")]
-    public AudioSource flashlightAudio;     // AudioSource op flashlight of camera
-    public AudioClip toggleSound;            // Klik / aan-uit geluid
+    public AudioSource flashlightAudio;
+    public AudioClip toggleSound;
 
     [Header("Battery Settings")]
     [Range(0, 100)]
@@ -49,7 +49,6 @@ public class FirstPersonCamera : MonoBehaviour
         UpdateBatteryUI();
     }
 
-    // ================= MOUSE LOOK =================
     void HandleMouseLook()
     {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
@@ -62,7 +61,6 @@ public class FirstPersonCamera : MonoBehaviour
         playerBody.Rotate(Vector3.up * mouseX);
     }
 
-    // ================= FLASHLIGHT =================
     void HandleFlashlightToggle()
     {
         if (Input.GetKeyDown(KeyCode.Q) && flashlightLight != null)
@@ -72,15 +70,11 @@ public class FirstPersonCamera : MonoBehaviour
                 flashlightOn = !flashlightOn;
                 flashlightLight.enabled = flashlightOn;
 
-                // 🔊 GELUID AFSPELEN BIJ TOGGLE
                 if (flashlightAudio != null && toggleSound != null)
-                {
                     flashlightAudio.PlayOneShot(toggleSound);
-                }
             }
         }
 
-        // Battery leeg → forceer uit
         if (battery <= 0f && flashlightOn)
         {
             flashlightOn = false;
@@ -88,7 +82,6 @@ public class FirstPersonCamera : MonoBehaviour
         }
     }
 
-    // ================= BATTERY =================
     void DrainBattery()
     {
         if (flashlightOn && battery > 0f)
@@ -107,5 +100,12 @@ public class FirstPersonCamera : MonoBehaviour
     {
         if (batteryText != null)
             batteryText.text = "Battery: " + Mathf.CeilToInt(battery) + "%";
+    }
+
+    // 🔋 OPGEROEPEN DOOR BATTERY OBJECT
+    public void AddBattery(float amount)
+    {
+        battery += amount;
+        battery = Mathf.Clamp(battery, 0f, 100f);
     }
 }

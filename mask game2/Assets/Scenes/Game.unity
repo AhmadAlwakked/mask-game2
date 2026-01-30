@@ -23628,6 +23628,11 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!135 &1029336927 stripped
+SphereCollider:
+  m_CorrespondingSourceObject: {fileID: 315355185638459119, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1830444724}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1044101838
 GameObject:
   m_ObjectHideFlags: 0
@@ -32685,11 +32690,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vault: {fileID: 1326012588}
   simulationRuns: 10000
-  chance1: 30.09
-  chance2: 12.23
-  chance3: 4.86
-  chance4: 1.91
-  chance5: 1.38
+  chance1: 36.43
+  chance2: 14.29
+  chance3: 5.65
+  chance4: 2.21
+  chance5: 1.58
 --- !u!1001 &1562734180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38961,6 +38966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kluisjeFinal
       objectReference: {fileID: 0}
+    - target: {fileID: 4584978212579121028, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: spawnArea
+      value: 
+      objectReference: {fileID: 1029336927}
     - target: {fileID: 4584978212579121028, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       propertyPath: cashPrefab
       value: 
@@ -46105,6 +46114,14 @@ PrefabInstance:
     - target: {fileID: 4584978212579121028, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       propertyPath: spawnChance
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4584978212579121028, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: batteryPrefab
+      value: 
+      objectReference: {fileID: 6090941668311629836, guid: bdd14ee0f19c4b648a0993bb4630606b, type: 3}
+    - target: {fileID: 4584978212579121028, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      propertyPath: batterySpawnChance
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

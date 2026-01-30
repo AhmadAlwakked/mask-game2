@@ -103,6 +103,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 3f443c8e496b2ba43bb38ad9d8420c3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4584978212579121028}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 3f443c8e496b2ba43bb38ad9d8420c3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9125650397779287320}
     - targetCorrespondingSourceObject: {fileID: -516098083770646512, guid: 3f443c8e496b2ba43bb38ad9d8420c3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4821672638049869254}
@@ -219,6 +222,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 8290929460576218912}
   inside: 0
+  cashPrefab: {fileID: 4619071746026975967, guid: 9a07e785ece432e49a91f2e01713bfd2, type: 3}
+  batteryPrefab: {fileID: 6090941668311629836, guid: bdd14ee0f19c4b648a0993bb4630606b, type: 3}
+  cashSpawnChance: 0.6
+  batterySpawnChance: 0.3
+  maxCashCount: 5
+  extraCashChance: 0.4
+  spawnArea: {fileID: 315355185638459119}
+--- !u!65 &9125650397779287320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4123699207763293285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 0.1, z: 2}
+  m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!1 &5359356803838576145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 3f443c8e496b2ba43bb38ad9d8420c3d, type: 3}

@@ -33,11 +33,9 @@ public class PlayerRaycast : MonoBehaviour
 
         foreach (RaycastHit hit in hits)
         {
-            // 🔹 negeer de speler
             if (hit.collider.CompareTag("Player"))
                 continue;
 
-            // 🔹 Cash detectie
             if (hit.collider.CompareTag("Cash"))
             {
                 currentCash = hit.collider.GetComponent<CashObject>();
@@ -45,7 +43,6 @@ public class PlayerRaycast : MonoBehaviour
                     currentCash.Highlight(true);
             }
 
-            // 🔹 Vault detectie
             if (hit.collider.CompareTag("Vault"))
             {
                 currentVaultDoor = hit.collider.GetComponent<VaultDoor>();
@@ -53,12 +50,10 @@ public class PlayerRaycast : MonoBehaviour
                     currentVaultDoor.Highlight(true);
             }
 
-            // Stop bij het eerste interactable object
             if (currentCash != null || currentVaultDoor != null)
                 break;
         }
 
-        // 🔹 Verwijder highlight van vorige objecten
         if (lastHitCash != null && lastHitCash != currentCash)
             lastHitCash.Highlight(false);
 
@@ -68,11 +63,9 @@ public class PlayerRaycast : MonoBehaviour
         lastHitCash = currentCash;
         lastHitVaultDoor = currentVaultDoor;
 
-        // 🔹 Update crosshair kleur
         if (crosshair != null)
             crosshair.color = (currentCash != null || currentVaultDoor != null) ? targetColor : normalColor;
 
-        // 🔹 Interactie met E
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (currentCash != null)

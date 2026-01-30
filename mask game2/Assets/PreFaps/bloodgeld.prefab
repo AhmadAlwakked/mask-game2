@@ -114,6 +114,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outline: {fileID: 2115568903328792953}
+  isCash: 1
+  isBattery: 0
+  cashAmount: 5
+  batteryAmount: 25
 --- !u!114 &2115568903328792953
 MonoBehaviour:
   m_ObjectHideFlags: 0

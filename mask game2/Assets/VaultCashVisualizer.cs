@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -8,7 +8,7 @@ using UnityEditor;
 public class VaultCashVisualizer : MonoBehaviour
 {
     [Header("Link the Vault")]
-    public Vault vault; // Hier refereer je naar Vault script
+    public Vault vault;
 
     [Header("Simulation Settings")]
     public int simulationRuns = 10000;
@@ -33,6 +33,7 @@ public class VaultCashVisualizer : MonoBehaviour
         for (int i = 0; i < simulationRuns; i++)
         {
             int spawned = SimulateSingleVault();
+
             switch (spawned)
             {
                 case 1: c1++; break;
@@ -52,9 +53,12 @@ public class VaultCashVisualizer : MonoBehaviour
 
     int SimulateSingleVault()
     {
-        if (Random.value > vault.spawnChance) return 0;
+        // ✅ juiste veldnaam
+        if (Random.value > vault.cashSpawnChance)
+            return 0;
 
         int cash = 1;
+
         for (int i = 1; i < vault.maxCashCount; i++)
         {
             if (Random.value <= vault.extraCashChance)
@@ -62,6 +66,7 @@ public class VaultCashVisualizer : MonoBehaviour
             else
                 break;
         }
+
         return cash;
     }
 }
