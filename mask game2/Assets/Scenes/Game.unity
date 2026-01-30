@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 2837767}
   - component: {fileID: 2837766}
   - component: {fileID: 2837769}
+  - component: {fileID: 2837770}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -249,6 +250,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2837770
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837764}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &4090842
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +387,7 @@ GameObject:
   - component: {fileID: 4707058}
   - component: {fileID: 4707057}
   - component: {fileID: 4707060}
+  - component: {fileID: 4707061}
   m_Layer: 0
   m_Name: Cube (45)
   m_TagString: Wall
@@ -487,6 +505,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &4707061
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4707055}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &13454594
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,6 +893,7 @@ GameObject:
   - component: {fileID: 29912529}
   - component: {fileID: 29912528}
   - component: {fileID: 29912531}
+  - component: {fileID: 29912532}
   m_Layer: 0
   m_Name: Cube (42)
   m_TagString: Wall
@@ -976,6 +1011,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &29912532
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29912526}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &30354053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,6 +1425,7 @@ GameObject:
   - component: {fileID: 40599140}
   - component: {fileID: 40599139}
   - component: {fileID: 40599142}
+  - component: {fileID: 40599143}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -1491,6 +1543,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &40599143
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40599137}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &46675532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1760,6 +1828,7 @@ GameObject:
   - component: {fileID: 54458054}
   - component: {fileID: 54458053}
   - component: {fileID: 54458056}
+  - component: {fileID: 54458057}
   m_Layer: 0
   m_Name: Cube (53)
   m_TagString: Wall
@@ -1877,6 +1946,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &54458057
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54458051}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &55657309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2029,6 +2114,7 @@ GameObject:
   - component: {fileID: 65683225}
   - component: {fileID: 65683224}
   - component: {fileID: 65683227}
+  - component: {fileID: 65683228}
   m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Wall
@@ -2146,6 +2232,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &65683228
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65683222}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &70359092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,6 +2261,7 @@ GameObject:
   - component: {fileID: 70359095}
   - component: {fileID: 70359094}
   - component: {fileID: 70359097}
+  - component: {fileID: 70359098}
   m_Layer: 0
   m_Name: Cube (52)
   m_TagString: Wall
@@ -2276,6 +2379,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &70359098
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70359092}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &73766205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,6 +2408,7 @@ GameObject:
   - component: {fileID: 73766208}
   - component: {fileID: 73766207}
   - component: {fileID: 73766210}
+  - component: {fileID: 73766211}
   m_Layer: 0
   m_Name: Cube (33)
   m_TagString: Wall
@@ -2406,6 +2526,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &73766211
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73766205}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &77919930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2555,7 @@ GameObject:
   - component: {fileID: 77919933}
   - component: {fileID: 77919932}
   - component: {fileID: 77919935}
+  - component: {fileID: 77919936}
   m_Layer: 0
   m_Name: Cube (50)
   m_TagString: Wall
@@ -2536,6 +2673,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &77919936
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77919930}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &78858152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2549,6 +2702,7 @@ GameObject:
   - component: {fileID: 78858155}
   - component: {fileID: 78858154}
   - component: {fileID: 78858157}
+  - component: {fileID: 78858158}
   m_Layer: 0
   m_Name: Cube (38)
   m_TagString: Wall
@@ -2666,6 +2820,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &78858158
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78858152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &87347650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2679,6 +2849,7 @@ GameObject:
   - component: {fileID: 87347653}
   - component: {fileID: 87347652}
   - component: {fileID: 87347655}
+  - component: {fileID: 87347656}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Wall
@@ -2796,6 +2967,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &87347656
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87347650}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &103071712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,6 +3105,7 @@ GameObject:
   - component: {fileID: 119256814}
   - component: {fileID: 119256813}
   - component: {fileID: 119256816}
+  - component: {fileID: 119256817}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Wall
@@ -3035,6 +3223,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &119256817
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119256811}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &121754826
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3252,7 @@ GameObject:
   - component: {fileID: 121754829}
   - component: {fileID: 121754828}
   - component: {fileID: 121754831}
+  - component: {fileID: 121754832}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Wall
@@ -3165,6 +3370,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &121754832
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121754826}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &126620512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3396,6 +3617,7 @@ GameObject:
   - component: {fileID: 134909188}
   - component: {fileID: 134909187}
   - component: {fileID: 134909190}
+  - component: {fileID: 134909191}
   m_Layer: 0
   m_Name: Cube (39)
   m_TagString: Wall
@@ -3513,6 +3735,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &134909191
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 134909185}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &135314878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3625,6 +3863,7 @@ GameObject:
   - component: {fileID: 137755264}
   - component: {fileID: 137755263}
   - component: {fileID: 137755266}
+  - component: {fileID: 137755267}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Wall
@@ -3742,6 +3981,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &137755267
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137755261}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &142520704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -4151,6 +4406,7 @@ GameObject:
   - component: {fileID: 177510216}
   - component: {fileID: 177510215}
   - component: {fileID: 177510218}
+  - component: {fileID: 177510219}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Wall
@@ -4268,6 +4524,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &177510219
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177510213}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &180734921 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 62120cb2c505eb945bd12d9f21ec42ea, type: 3}
@@ -4507,6 +4779,7 @@ GameObject:
   - component: {fileID: 189904065}
   - component: {fileID: 189904064}
   - component: {fileID: 189904067}
+  - component: {fileID: 189904068}
   m_Layer: 0
   m_Name: Cube (48)
   m_TagString: Wall
@@ -4624,6 +4897,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &189904068
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189904062}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &190106193
 GameObject:
   m_ObjectHideFlags: 0
@@ -4881,6 +5170,7 @@ GameObject:
   - component: {fileID: 204325338}
   - component: {fileID: 204325337}
   - component: {fileID: 204325340}
+  - component: {fileID: 204325341}
   m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Wall
@@ -4998,6 +5288,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &204325341
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204325335}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &212748720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -5024,6 +5330,27 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!1 &215830673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 754997791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &215830675
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215830673}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &217023238
 GameObject:
   m_ObjectHideFlags: 0
@@ -5241,6 +5568,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217394946}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &218092769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1435504792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &218092771
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218092769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &219266893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,6 +5602,7 @@ GameObject:
   - component: {fileID: 219266896}
   - component: {fileID: 219266895}
   - component: {fileID: 219266898}
+  - component: {fileID: 219266899}
   m_Layer: 0
   m_Name: Cube (28)
   m_TagString: Wall
@@ -5371,6 +5720,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &219266899
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219266893}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &221364685 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 753731cb8e4bdfb459dc74feaf9e2c45, type: 3}
@@ -5550,6 +5915,7 @@ GameObject:
   - component: {fileID: 230349768}
   - component: {fileID: 230349767}
   - component: {fileID: 230349770}
+  - component: {fileID: 230349771}
   m_Layer: 0
   m_Name: Cube (55)
   m_TagString: Wall
@@ -5667,6 +6033,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &230349771
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230349765}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &240595702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5680,6 +6062,7 @@ GameObject:
   - component: {fileID: 240595705}
   - component: {fileID: 240595704}
   - component: {fileID: 240595707}
+  - component: {fileID: 240595708}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Wall
@@ -5797,6 +6180,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &240595708
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240595702}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &240694746
 GameObject:
   m_ObjectHideFlags: 0
@@ -6027,6 +6426,7 @@ GameObject:
   - component: {fileID: 244759159}
   - component: {fileID: 244759158}
   - component: {fileID: 244759161}
+  - component: {fileID: 244759162}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Wall
@@ -6144,6 +6544,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &244759162
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244759156}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &246421318
 GameObject:
   m_ObjectHideFlags: 0
@@ -6157,6 +6573,7 @@ GameObject:
   - component: {fileID: 246421321}
   - component: {fileID: 246421320}
   - component: {fileID: 246421323}
+  - component: {fileID: 246421324}
   m_Layer: 0
   m_Name: Cube (56)
   m_TagString: Wall
@@ -6274,6 +6691,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &246421324
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246421318}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &256624995
 GameObject:
   m_ObjectHideFlags: 0
@@ -6396,6 +6829,7 @@ GameObject:
   - component: {fileID: 262375655}
   - component: {fileID: 262375654}
   - component: {fileID: 262375657}
+  - component: {fileID: 262375658}
   m_Layer: 0
   m_Name: Cube (49)
   m_TagString: Wall
@@ -6513,6 +6947,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &262375658
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262375652}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &265331058 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -6531,6 +6981,7 @@ GameObject:
   - component: {fileID: 271936198}
   - component: {fileID: 271936197}
   - component: {fileID: 271936200}
+  - component: {fileID: 271936201}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Wall
@@ -6648,6 +7099,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &271936201
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271936195}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &273303913
 GameObject:
   m_ObjectHideFlags: 0
@@ -6661,6 +7128,7 @@ GameObject:
   - component: {fileID: 273303916}
   - component: {fileID: 273303915}
   - component: {fileID: 273303918}
+  - component: {fileID: 273303919}
   m_Layer: 0
   m_Name: Cube (62)
   m_TagString: Wall
@@ -6778,6 +7246,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &273303919
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273303913}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &283904431
 GameObject:
   m_ObjectHideFlags: 0
@@ -7597,6 +8081,7 @@ GameObject:
   - component: {fileID: 303393986}
   - component: {fileID: 303393985}
   - component: {fileID: 303393988}
+  - component: {fileID: 303393989}
   m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Wall
@@ -7714,6 +8199,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &303393989
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303393983}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &309542288
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,6 +8228,7 @@ GameObject:
   - component: {fileID: 309542291}
   - component: {fileID: 309542290}
   - component: {fileID: 309542293}
+  - component: {fileID: 309542294}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Wall
@@ -7844,6 +8346,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &309542294
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309542288}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &311817526
 GameObject:
   m_ObjectHideFlags: 0
@@ -7965,6 +8483,7 @@ GameObject:
   - component: {fileID: 314896501}
   - component: {fileID: 314896500}
   - component: {fileID: 314896503}
+  - component: {fileID: 314896504}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Wall
@@ -8082,6 +8601,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &314896504
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314896498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &327583435
 GameObject:
   m_ObjectHideFlags: 0
@@ -8094,6 +8629,7 @@ GameObject:
   - component: {fileID: 327583439}
   - component: {fileID: 327583438}
   - component: {fileID: 327583437}
+  - component: {fileID: 327583440}
   m_Layer: 0
   m_Name: Muren (1)
   m_TagString: Wall
@@ -8254,6 +8790,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327583435}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!208 &327583440
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327583435}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &327587151
 GameObject:
   m_ObjectHideFlags: 0
@@ -8267,6 +8819,7 @@ GameObject:
   - component: {fileID: 327587154}
   - component: {fileID: 327587153}
   - component: {fileID: 327587156}
+  - component: {fileID: 327587157}
   m_Layer: 0
   m_Name: Cube (61)
   m_TagString: Wall
@@ -8384,6 +8937,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &327587157
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327587151}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &329157973
 GameObject:
   m_ObjectHideFlags: 0
@@ -8397,6 +8966,7 @@ GameObject:
   - component: {fileID: 329157976}
   - component: {fileID: 329157975}
   - component: {fileID: 329157978}
+  - component: {fileID: 329157979}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Wall
@@ -8514,6 +9084,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &329157979
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329157973}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &333764661
 GameObject:
   m_ObjectHideFlags: 0
@@ -8677,6 +9263,7 @@ GameObject:
   - component: {fileID: 336849136}
   - component: {fileID: 336849135}
   - component: {fileID: 336849138}
+  - component: {fileID: 336849139}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Wall
@@ -8794,6 +9381,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &336849139
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336849133}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &343739980
 GameObject:
   m_ObjectHideFlags: 0
@@ -9153,6 +9756,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360718000}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &365843020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1830444724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &365843022
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365843020}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &366149128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9239,6 +9863,7 @@ GameObject:
   - component: {fileID: 380716722}
   - component: {fileID: 380716721}
   - component: {fileID: 380716724}
+  - component: {fileID: 380716725}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Wall
@@ -9356,6 +9981,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &380716725
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380716719}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &380751647
 GameObject:
   m_ObjectHideFlags: 0
@@ -9470,6 +10111,7 @@ GameObject:
   - component: {fileID: 388988015}
   - component: {fileID: 388988014}
   - component: {fileID: 388988017}
+  - component: {fileID: 388988018}
   m_Layer: 0
   m_Name: Cube (26)
   m_TagString: Wall
@@ -9587,6 +10229,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &388988018
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388988012}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &394882754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9784,6 +10442,7 @@ GameObject:
   - component: {fileID: 406704184}
   - component: {fileID: 406704183}
   - component: {fileID: 406704186}
+  - component: {fileID: 406704187}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Wall
@@ -9901,6 +10560,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &406704187
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406704181}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &411660126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10126,6 +10801,7 @@ GameObject:
   - component: {fileID: 427399931}
   - component: {fileID: 427399930}
   - component: {fileID: 427399933}
+  - component: {fileID: 427399934}
   m_Layer: 0
   m_Name: Cube (59)
   m_TagString: Wall
@@ -10243,6 +10919,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &427399934
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427399928}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &430373370
 GameObject:
   m_ObjectHideFlags: 0
@@ -10256,6 +10948,7 @@ GameObject:
   - component: {fileID: 430373373}
   - component: {fileID: 430373372}
   - component: {fileID: 430373375}
+  - component: {fileID: 430373376}
   m_Layer: 0
   m_Name: Cube (32)
   m_TagString: Wall
@@ -10373,6 +11066,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &430373376
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430373370}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &434077808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10386,6 +11095,7 @@ GameObject:
   - component: {fileID: 434077811}
   - component: {fileID: 434077810}
   - component: {fileID: 434077813}
+  - component: {fileID: 434077814}
   m_Layer: 0
   m_Name: Cube (57)
   m_TagString: Wall
@@ -10503,6 +11213,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &434077814
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434077808}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &440950447 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -10749,6 +11475,7 @@ GameObject:
   - component: {fileID: 446604118}
   - component: {fileID: 446604117}
   - component: {fileID: 446604120}
+  - component: {fileID: 446604121}
   m_Layer: 0
   m_Name: Cube (31)
   m_TagString: Wall
@@ -10866,6 +11593,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &446604121
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446604115}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &452089405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11277,6 +12020,7 @@ GameObject:
   - component: {fileID: 497039661}
   - component: {fileID: 497039660}
   - component: {fileID: 497039663}
+  - component: {fileID: 497039664}
   m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Wall
@@ -11394,6 +12138,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &497039664
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497039658}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &507605725
 GameObject:
   m_ObjectHideFlags: 0
@@ -11407,6 +12167,7 @@ GameObject:
   - component: {fileID: 507605728}
   - component: {fileID: 507605727}
   - component: {fileID: 507605730}
+  - component: {fileID: 507605731}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Wall
@@ -11524,6 +12285,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &507605731
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507605725}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &519813551
 GameObject:
   m_ObjectHideFlags: 0
@@ -11537,6 +12314,7 @@ GameObject:
   - component: {fileID: 519813554}
   - component: {fileID: 519813553}
   - component: {fileID: 519813556}
+  - component: {fileID: 519813557}
   m_Layer: 0
   m_Name: Cube (42)
   m_TagString: Wall
@@ -11654,6 +12432,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &519813557
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519813551}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &522008887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11717,6 +12511,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 522008889}
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 522008891}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 142520713}
@@ -11759,6 +12556,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!208 &522008891
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522008888}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &529573499
 GameObject:
   m_ObjectHideFlags: 0
@@ -11967,6 +12780,9 @@ PrefabInstance:
     - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651662313}
     - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 530069816}
@@ -12202,6 +13018,7 @@ GameObject:
   - component: {fileID: 545557167}
   - component: {fileID: 545557166}
   - component: {fileID: 545557169}
+  - component: {fileID: 545557170}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Wall
@@ -12319,6 +13136,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &545557170
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545557164}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &550223540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12647,6 +13480,7 @@ GameObject:
   - component: {fileID: 569422501}
   - component: {fileID: 569422500}
   - component: {fileID: 569422503}
+  - component: {fileID: 569422504}
   m_Layer: 0
   m_Name: Cube (53)
   m_TagString: Wall
@@ -12764,6 +13598,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &569422504
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569422498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &571125474
 GameObject:
   m_ObjectHideFlags: 0
@@ -12993,6 +13843,7 @@ GameObject:
   - component: {fileID: 575923573}
   - component: {fileID: 575923572}
   - component: {fileID: 575923575}
+  - component: {fileID: 575923576}
   m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Wall
@@ -13110,6 +13961,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &575923576
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575923570}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &578774180
 GameObject:
   m_ObjectHideFlags: 0
@@ -13123,6 +13990,7 @@ GameObject:
   - component: {fileID: 578774183}
   - component: {fileID: 578774182}
   - component: {fileID: 578774185}
+  - component: {fileID: 578774186}
   m_Layer: 0
   m_Name: Cube (49)
   m_TagString: Wall
@@ -13240,6 +14108,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &578774186
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578774180}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &584622799
 GameObject:
   m_ObjectHideFlags: 0
@@ -13253,6 +14137,7 @@ GameObject:
   - component: {fileID: 584622802}
   - component: {fileID: 584622801}
   - component: {fileID: 584622804}
+  - component: {fileID: 584622805}
   m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Wall
@@ -13370,6 +14255,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &584622805
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584622799}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &585247654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -13409,6 +14310,7 @@ GameObject:
   - component: {fileID: 596720328}
   - component: {fileID: 596720327}
   - component: {fileID: 596720330}
+  - component: {fileID: 596720331}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Wall
@@ -13526,6 +14428,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &596720331
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596720325}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &599678305
 GameObject:
   m_ObjectHideFlags: 0
@@ -13539,6 +14457,7 @@ GameObject:
   - component: {fileID: 599678308}
   - component: {fileID: 599678307}
   - component: {fileID: 599678310}
+  - component: {fileID: 599678311}
   m_Layer: 0
   m_Name: Cube (60)
   m_TagString: Wall
@@ -13656,6 +14575,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &599678311
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599678305}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &599851829
 GameObject:
   m_ObjectHideFlags: 0
@@ -13756,6 +14691,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 863558550}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 585247663}
@@ -13887,6 +14825,7 @@ GameObject:
   - component: {fileID: 608500318}
   - component: {fileID: 608500317}
   - component: {fileID: 608500320}
+  - component: {fileID: 608500321}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Wall
@@ -14004,6 +14943,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &608500321
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608500315}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &610531937
 GameObject:
   m_ObjectHideFlags: 0
@@ -14466,6 +15421,7 @@ GameObject:
   - component: {fileID: 630076874}
   - component: {fileID: 630076873}
   - component: {fileID: 630076876}
+  - component: {fileID: 630076877}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Wall
@@ -14583,6 +15539,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &630076877
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630076871}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &631938747
 GameObject:
   m_ObjectHideFlags: 0
@@ -14596,6 +15568,7 @@ GameObject:
   - component: {fileID: 631938750}
   - component: {fileID: 631938749}
   - component: {fileID: 631938752}
+  - component: {fileID: 631938753}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -14713,6 +15686,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &631938753
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631938747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &632711395
 GameObject:
   m_ObjectHideFlags: 0
@@ -14834,6 +15823,7 @@ GameObject:
   - component: {fileID: 634019546}
   - component: {fileID: 634019545}
   - component: {fileID: 634019548}
+  - component: {fileID: 634019549}
   m_Layer: 0
   m_Name: Cube (26)
   m_TagString: Wall
@@ -14951,6 +15941,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &634019549
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634019543}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &639598977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15015,6 +16021,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1810164275}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1941337758}
@@ -15438,6 +16447,7 @@ GameObject:
   - component: {fileID: 651524521}
   - component: {fileID: 651524520}
   - component: {fileID: 651524523}
+  - component: {fileID: 651524524}
   m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Wall
@@ -15555,6 +16565,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &651524524
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651524518}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &677373564
 GameObject:
   m_ObjectHideFlags: 0
@@ -15677,6 +16703,7 @@ GameObject:
   - component: {fileID: 678256129}
   - component: {fileID: 678256128}
   - component: {fileID: 678256127}
+  - component: {fileID: 678256131}
   m_Layer: 0
   m_Name: Cube (63)
   m_TagString: Wall
@@ -15794,6 +16821,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678256125}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!208 &678256131
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678256125}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &681237793
 GameObject:
   m_ObjectHideFlags: 0
@@ -16409,6 +17452,7 @@ GameObject:
   - component: {fileID: 708676467}
   - component: {fileID: 708676466}
   - component: {fileID: 708676469}
+  - component: {fileID: 708676470}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Wall
@@ -16526,6 +17570,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &708676470
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708676464}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &708944516
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16727,6 +17787,7 @@ GameObject:
   - component: {fileID: 720703893}
   - component: {fileID: 720703892}
   - component: {fileID: 720703895}
+  - component: {fileID: 720703896}
   m_Layer: 0
   m_Name: Cube (43)
   m_TagString: Wall
@@ -16844,6 +17905,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &720703896
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720703890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &724948336
 GameObject:
   m_ObjectHideFlags: 0
@@ -16857,6 +17934,7 @@ GameObject:
   - component: {fileID: 724948339}
   - component: {fileID: 724948338}
   - component: {fileID: 724948341}
+  - component: {fileID: 724948342}
   m_Layer: 0
   m_Name: Cube (31)
   m_TagString: Wall
@@ -16974,6 +18052,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &724948342
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724948336}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &729362322
 GameObject:
   m_ObjectHideFlags: 0
@@ -17096,6 +18190,7 @@ GameObject:
   - component: {fileID: 747091195}
   - component: {fileID: 747091194}
   - component: {fileID: 747091197}
+  - component: {fileID: 747091198}
   m_Layer: 0
   m_Name: Cube (46)
   m_TagString: Wall
@@ -17213,6 +18308,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &747091198
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747091192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &751422345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5403499602203783192, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -17282,6 +18393,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 215830675}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 754997796}
@@ -17486,6 +18600,7 @@ GameObject:
   - component: {fileID: 762080772}
   - component: {fileID: 762080771}
   - component: {fileID: 762080774}
+  - component: {fileID: 762080775}
   m_Layer: 0
   m_Name: Cube (41)
   m_TagString: Wall
@@ -17603,6 +18718,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &762080775
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762080769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &765882123 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -17803,6 +18934,7 @@ GameObject:
   - component: {fileID: 793795458}
   - component: {fileID: 793795457}
   - component: {fileID: 793795460}
+  - component: {fileID: 793795461}
   m_Layer: 0
   m_Name: Cube (52)
   m_TagString: Wall
@@ -17920,6 +19052,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &793795461
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793795455}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &794771543
 GameObject:
   m_ObjectHideFlags: 0
@@ -18312,6 +19460,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813516952}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &814236567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 978759463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &814236569
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814236567}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &814260649
 GameObject:
   m_ObjectHideFlags: 0
@@ -18433,6 +19602,7 @@ GameObject:
   - component: {fileID: 815882291}
   - component: {fileID: 815882290}
   - component: {fileID: 815882293}
+  - component: {fileID: 815882294}
   m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Wall
@@ -18550,6 +19720,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &815882294
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815882288}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &837881583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18765,6 +19951,7 @@ GameObject:
   - component: {fileID: 856715847}
   - component: {fileID: 856715846}
   - component: {fileID: 856715849}
+  - component: {fileID: 856715850}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Wall
@@ -18882,6 +20069,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &856715850
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856715844}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &859032207 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1588121248160279453, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
@@ -18934,6 +20137,27 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!1 &863558548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 603008988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &863558550
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863558548}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &870938941
 GameObject:
   m_ObjectHideFlags: 0
@@ -19285,6 +20509,7 @@ GameObject:
   - component: {fileID: 885805099}
   - component: {fileID: 885805098}
   - component: {fileID: 885805101}
+  - component: {fileID: 885805102}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Wall
@@ -19402,6 +20627,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &885805102
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885805096}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &892081415
 GameObject:
   m_ObjectHideFlags: 0
@@ -19415,6 +20656,7 @@ GameObject:
   - component: {fileID: 892081418}
   - component: {fileID: 892081417}
   - component: {fileID: 892081420}
+  - component: {fileID: 892081421}
   m_Layer: 0
   m_Name: Cube (38)
   m_TagString: Wall
@@ -19532,6 +20774,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &892081421
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892081415}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &899596255
 GameObject:
   m_ObjectHideFlags: 0
@@ -19703,6 +20961,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7794946762752787404, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1339307409}
+    - targetCorrespondingSourceObject: {fileID: 7794946762752787404, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1339307413}
   m_SourcePrefab: {fileID: 100100000, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
 --- !u!1 &902431319
 GameObject:
@@ -19981,6 +21242,27 @@ MonoBehaviour:
   normalIntensity: 100
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!1 &944250477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 2139925666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &944250479
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944250477}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &945930400
 GameObject:
   m_ObjectHideFlags: 0
@@ -20347,6 +21629,7 @@ GameObject:
   - component: {fileID: 957227496}
   - component: {fileID: 957227495}
   - component: {fileID: 957227498}
+  - component: {fileID: 957227499}
   m_Layer: 0
   m_Name: Cube (51)
   m_TagString: Wall
@@ -20464,6 +21747,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &957227499
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957227493}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &957278196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2387608404541926860, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -20490,6 +21789,27 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!1 &959567556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 2077551608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &959567558
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959567556}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &960687649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21463,6 +22783,7 @@ GameObject:
   - component: {fileID: 973246356}
   - component: {fileID: 973246355}
   - component: {fileID: 973246358}
+  - component: {fileID: 973246359}
   m_Layer: 0
   m_Name: Cube (55)
   m_TagString: Wall
@@ -21580,6 +22901,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &973246359
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973246353}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &978759463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21644,6 +22981,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 814236569}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1451873650}
@@ -23001,6 +24341,7 @@ GameObject:
   - component: {fileID: 1118103051}
   - component: {fileID: 1118103050}
   - component: {fileID: 1118103053}
+  - component: {fileID: 1118103054}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -23118,6 +24459,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1118103054
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118103048}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1121981565
 GameObject:
   m_ObjectHideFlags: 0
@@ -23131,6 +24488,7 @@ GameObject:
   - component: {fileID: 1121981568}
   - component: {fileID: 1121981567}
   - component: {fileID: 1121981570}
+  - component: {fileID: 1121981571}
   m_Layer: 0
   m_Name: Cube (58)
   m_TagString: Wall
@@ -23248,6 +24606,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1121981571
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121981565}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1125826314
 GameObject:
   m_ObjectHideFlags: 0
@@ -23261,6 +24635,7 @@ GameObject:
   - component: {fileID: 1125826317}
   - component: {fileID: 1125826316}
   - component: {fileID: 1125826319}
+  - component: {fileID: 1125826320}
   m_Layer: 0
   m_Name: Cube (44)
   m_TagString: Wall
@@ -23378,6 +24753,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1125826320
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125826314}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1126095160
 GameObject:
   m_ObjectHideFlags: 0
@@ -23391,6 +24782,7 @@ GameObject:
   - component: {fileID: 1126095163}
   - component: {fileID: 1126095162}
   - component: {fileID: 1126095165}
+  - component: {fileID: 1126095166}
   m_Layer: 0
   m_Name: Cube (60)
   m_TagString: Wall
@@ -23508,6 +24900,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1126095166
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126095160}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1128175123
 GameObject:
   m_ObjectHideFlags: 0
@@ -23714,6 +25122,7 @@ GameObject:
   - component: {fileID: 1139855040}
   - component: {fileID: 1139855039}
   - component: {fileID: 1139855042}
+  - component: {fileID: 1139855043}
   m_Layer: 0
   m_Name: Cube (37)
   m_TagString: Wall
@@ -23831,6 +25240,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1139855043
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139855037}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1149352681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24035,6 +25460,7 @@ GameObject:
   - component: {fileID: 1173350784}
   - component: {fileID: 1173350783}
   - component: {fileID: 1173350786}
+  - component: {fileID: 1173350787}
   m_Layer: 0
   m_Name: Cube (46)
   m_TagString: Wall
@@ -24152,6 +25578,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1173350787
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173350781}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1176584809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24311,6 +25753,7 @@ GameObject:
   - component: {fileID: 1197496953}
   - component: {fileID: 1197496952}
   - component: {fileID: 1197496955}
+  - component: {fileID: 1197496956}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Wall
@@ -24428,6 +25871,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1197496956
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197496950}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1198170860
 GameObject:
   m_ObjectHideFlags: 0
@@ -24441,6 +25900,7 @@ GameObject:
   - component: {fileID: 1198170863}
   - component: {fileID: 1198170862}
   - component: {fileID: 1198170865}
+  - component: {fileID: 1198170866}
   m_Layer: 0
   m_Name: Cube (23)
   m_TagString: Wall
@@ -24558,6 +26018,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1198170866
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198170860}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1199101236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24661,6 +26137,7 @@ GameObject:
   - component: {fileID: 1205920387}
   - component: {fileID: 1205920386}
   - component: {fileID: 1205920389}
+  - component: {fileID: 1205920390}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -24778,6 +26255,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1205920390
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205920384}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1206869730
 GameObject:
   m_ObjectHideFlags: 0
@@ -24900,6 +26393,7 @@ GameObject:
   - component: {fileID: 1207168129}
   - component: {fileID: 1207168128}
   - component: {fileID: 1207168131}
+  - component: {fileID: 1207168132}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Wall
@@ -25017,6 +26511,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1207168132
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207168126}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1215908480
 GameObject:
   m_ObjectHideFlags: 0
@@ -25030,6 +26540,7 @@ GameObject:
   - component: {fileID: 1215908483}
   - component: {fileID: 1215908482}
   - component: {fileID: 1215908485}
+  - component: {fileID: 1215908486}
   m_Layer: 0
   m_Name: Cube (30)
   m_TagString: Wall
@@ -25147,6 +26658,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1215908486
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215908480}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1219649974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -25213,6 +26740,7 @@ GameObject:
   - component: {fileID: 1233368365}
   - component: {fileID: 1233368364}
   - component: {fileID: 1233368367}
+  - component: {fileID: 1233368368}
   m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Wall
@@ -25330,6 +26858,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1233368368
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233368362}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1238665827
 GameObject:
   m_ObjectHideFlags: 0
@@ -25343,6 +26887,7 @@ GameObject:
   - component: {fileID: 1238665830}
   - component: {fileID: 1238665829}
   - component: {fileID: 1238665832}
+  - component: {fileID: 1238665833}
   m_Layer: 0
   m_Name: Cube (35)
   m_TagString: Wall
@@ -25460,6 +27005,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1238665833
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238665827}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1243557390
 GameObject:
   m_ObjectHideFlags: 0
@@ -25764,6 +27325,7 @@ GameObject:
   - component: {fileID: 1270577065}
   - component: {fileID: 1270577064}
   - component: {fileID: 1270577067}
+  - component: {fileID: 1270577068}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Wall
@@ -25881,6 +27443,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1270577068
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270577062}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1274624795
 GameObject:
   m_ObjectHideFlags: 0
@@ -25989,6 +27567,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274624795}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1282184302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1533673167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1282184304
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282184302}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1295193089
 GameObject:
   m_ObjectHideFlags: 0
@@ -26002,6 +27601,7 @@ GameObject:
   - component: {fileID: 1295193092}
   - component: {fileID: 1295193091}
   - component: {fileID: 1295193094}
+  - component: {fileID: 1295193095}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Wall
@@ -26119,6 +27719,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1295193095
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295193089}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1304427837
 GameObject:
   m_ObjectHideFlags: 0
@@ -26132,6 +27748,7 @@ GameObject:
   - component: {fileID: 1304427840}
   - component: {fileID: 1304427839}
   - component: {fileID: 1304427842}
+  - component: {fileID: 1304427843}
   m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Wall
@@ -26249,6 +27866,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1304427843
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304427837}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1305790480
 GameObject:
   m_ObjectHideFlags: 0
@@ -26262,6 +27895,7 @@ GameObject:
   - component: {fileID: 1305790483}
   - component: {fileID: 1305790482}
   - component: {fileID: 1305790485}
+  - component: {fileID: 1305790486}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Wall
@@ -26379,6 +28013,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1305790486
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305790480}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1306096078
 GameObject:
   m_ObjectHideFlags: 0
@@ -26392,6 +28042,7 @@ GameObject:
   - component: {fileID: 1306096081}
   - component: {fileID: 1306096080}
   - component: {fileID: 1306096083}
+  - component: {fileID: 1306096084}
   m_Layer: 0
   m_Name: Cube (39)
   m_TagString: Wall
@@ -26509,6 +28160,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1306096084
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306096078}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1310023724 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -26889,6 +28556,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1339307413
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083152622}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1343459248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2387608404541926860, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -26928,6 +28611,7 @@ GameObject:
   - component: {fileID: 1345057720}
   - component: {fileID: 1345057719}
   - component: {fileID: 1345057722}
+  - component: {fileID: 1345057723}
   m_Layer: 0
   m_Name: Cube (56)
   m_TagString: Wall
@@ -27045,6 +28729,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1345057723
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345057717}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1347632009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -27149,6 +28849,9 @@ PrefabInstance:
     - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1753266009}
     - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1351737855}
@@ -27492,6 +29195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1361896547}
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1361896549}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1538338706}
@@ -27528,6 +29234,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!208 &1361896549
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361896546}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1362710055
 GameObject:
   m_ObjectHideFlags: 0
@@ -27541,6 +29263,7 @@ GameObject:
   - component: {fileID: 1362710058}
   - component: {fileID: 1362710057}
   - component: {fileID: 1362710060}
+  - component: {fileID: 1362710061}
   m_Layer: 0
   m_Name: Cube (30)
   m_TagString: Wall
@@ -27658,6 +29381,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1362710061
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362710055}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1364578435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -27676,6 +29415,7 @@ GameObject:
   - component: {fileID: 1364869474}
   - component: {fileID: 1364869473}
   - component: {fileID: 1364869476}
+  - component: {fileID: 1364869477}
   m_Layer: 0
   m_Name: Cube (37)
   m_TagString: Wall
@@ -27793,6 +29533,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1364869477
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364869471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1375385791
 GameObject:
   m_ObjectHideFlags: 0
@@ -27806,6 +29562,7 @@ GameObject:
   - component: {fileID: 1375385794}
   - component: {fileID: 1375385793}
   - component: {fileID: 1375385796}
+  - component: {fileID: 1375385797}
   m_Layer: 0
   m_Name: Cube (41)
   m_TagString: Wall
@@ -27923,6 +29680,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1375385797
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375385791}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1378990975
 GameObject:
   m_ObjectHideFlags: 0
@@ -27936,6 +29709,7 @@ GameObject:
   - component: {fileID: 1378990978}
   - component: {fileID: 1378990977}
   - component: {fileID: 1378990980}
+  - component: {fileID: 1378990981}
   m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Wall
@@ -28053,6 +29827,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1378990981
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378990975}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1379900468
 GameObject:
   m_ObjectHideFlags: 0
@@ -28391,6 +30181,7 @@ GameObject:
   - component: {fileID: 1391585254}
   - component: {fileID: 1391585253}
   - component: {fileID: 1391585256}
+  - component: {fileID: 1391585257}
   m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Wall
@@ -28508,6 +30299,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1391585257
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391585251}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1402001299
 GameObject:
   m_ObjectHideFlags: 0
@@ -28596,6 +30403,7 @@ GameObject:
   - component: {fileID: 1411906576}
   - component: {fileID: 1411906575}
   - component: {fileID: 1411906578}
+  - component: {fileID: 1411906579}
   m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Wall
@@ -28713,6 +30521,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1411906579
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411906573}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1412052645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4735190787084675746, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
@@ -28787,6 +30611,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 218092771}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1435504797}
@@ -29016,6 +30843,7 @@ GameObject:
   - component: {fileID: 1471723125}
   - component: {fileID: 1471723124}
   - component: {fileID: 1471723127}
+  - component: {fileID: 1471723128}
   m_Layer: 0
   m_Name: Cube (28)
   m_TagString: Wall
@@ -29133,6 +30961,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1471723128
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471723122}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1477092124
 GameObject:
   m_ObjectHideFlags: 0
@@ -29254,6 +31098,7 @@ GameObject:
   - component: {fileID: 1485888777}
   - component: {fileID: 1485888776}
   - component: {fileID: 1485888779}
+  - component: {fileID: 1485888780}
   m_Layer: 0
   m_Name: Cube (36)
   m_TagString: Wall
@@ -29371,6 +31216,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1485888780
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485888774}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1489059536
 GameObject:
   m_ObjectHideFlags: 0
@@ -29384,6 +31245,7 @@ GameObject:
   - component: {fileID: 1489059539}
   - component: {fileID: 1489059538}
   - component: {fileID: 1489059541}
+  - component: {fileID: 1489059542}
   m_Layer: 0
   m_Name: Cube (51)
   m_TagString: Wall
@@ -29501,6 +31363,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1489059542
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489059536}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1493227994
 GameObject:
   m_ObjectHideFlags: 0
@@ -29983,6 +31861,7 @@ GameObject:
   - component: {fileID: 1531380367}
   - component: {fileID: 1531380366}
   - component: {fileID: 1531380369}
+  - component: {fileID: 1531380370}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Wall
@@ -30100,6 +31979,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1531380370
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531380364}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1533673167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30164,6 +32059,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1282184304}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1310023733}
@@ -30400,6 +32298,7 @@ GameObject:
   - component: {fileID: 1546423979}
   - component: {fileID: 1546423978}
   - component: {fileID: 1546423981}
+  - component: {fileID: 1546423982}
   m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Wall
@@ -30517,6 +32416,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1546423982
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546423976}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1549047423 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
@@ -31248,6 +33163,7 @@ GameObject:
   - component: {fileID: 1612032204}
   - component: {fileID: 1612032203}
   - component: {fileID: 1612032206}
+  - component: {fileID: 1612032207}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Wall
@@ -31365,6 +33281,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1612032207
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612032201}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1612625334
 GameObject:
   m_ObjectHideFlags: 0
@@ -31487,6 +33419,7 @@ GameObject:
   - component: {fileID: 1612893255}
   - component: {fileID: 1612893254}
   - component: {fileID: 1612893257}
+  - component: {fileID: 1612893258}
   m_Layer: 0
   m_Name: Cube (61)
   m_TagString: Wall
@@ -31604,6 +33537,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1612893258
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612893252}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1614575819
 GameObject:
   m_ObjectHideFlags: 0
@@ -31617,6 +33566,7 @@ GameObject:
   - component: {fileID: 1614575822}
   - component: {fileID: 1614575821}
   - component: {fileID: 1614575824}
+  - component: {fileID: 1614575825}
   m_Layer: 0
   m_Name: Cube (58)
   m_TagString: Wall
@@ -31734,6 +33684,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1614575825
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614575819}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1620768287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31854,6 +33820,7 @@ GameObject:
   - component: {fileID: 1627936872}
   - component: {fileID: 1627936871}
   - component: {fileID: 1627936874}
+  - component: {fileID: 1627936875}
   m_Layer: 0
   m_Name: Cube (54)
   m_TagString: Wall
@@ -31971,6 +33938,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1627936875
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627936869}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1633954951
 GameObject:
   m_ObjectHideFlags: 0
@@ -32169,6 +34152,7 @@ GameObject:
   - component: {fileID: 1646080571}
   - component: {fileID: 1646080570}
   - component: {fileID: 1646080573}
+  - component: {fileID: 1646080574}
   m_Layer: 0
   m_Name: Cube (48)
   m_TagString: Wall
@@ -32286,6 +34270,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1646080574
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646080568}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1646468722
 GameObject:
   m_ObjectHideFlags: 0
@@ -32435,6 +34435,7 @@ GameObject:
   - component: {fileID: 1647372837}
   - component: {fileID: 1647372836}
   - component: {fileID: 1647372839}
+  - component: {fileID: 1647372840}
   m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Wall
@@ -32552,6 +34553,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1647372840
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647372834}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1648297493
 GameObject:
   m_ObjectHideFlags: 0
@@ -32660,6 +34677,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648297493}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1651662311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 530069814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1651662313
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651662311}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1653260733
 GameObject:
   m_ObjectHideFlags: 0
@@ -32769,6 +34807,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653260733}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1654409164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1883503475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1654409166
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654409164}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1655799259
 GameObject:
   m_ObjectHideFlags: 0
@@ -32989,6 +35048,7 @@ GameObject:
   - component: {fileID: 1661440825}
   - component: {fileID: 1661440824}
   - component: {fileID: 1661440827}
+  - component: {fileID: 1661440828}
   m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Wall
@@ -33106,6 +35166,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1661440828
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661440822}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1675810945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33634,6 +35710,7 @@ GameObject:
   - component: {fileID: 1687500450}
   - component: {fileID: 1687500449}
   - component: {fileID: 1687500452}
+  - component: {fileID: 1687500453}
   m_Layer: 0
   m_Name: Cube (23)
   m_TagString: Wall
@@ -33751,6 +35828,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1687500453
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687500447}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1688012039
 GameObject:
   m_ObjectHideFlags: 0
@@ -33982,6 +36075,7 @@ GameObject:
   - component: {fileID: 1699149222}
   - component: {fileID: 1699149221}
   - component: {fileID: 1699149224}
+  - component: {fileID: 1699149225}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Wall
@@ -34099,6 +36193,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1699149225
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699149219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1706456920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34381,6 +36491,7 @@ GameObject:
   - component: {fileID: 1715344223}
   - component: {fileID: 1715344222}
   - component: {fileID: 1715344225}
+  - component: {fileID: 1715344226}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Wall
@@ -34498,6 +36609,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1715344226
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715344220}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1717593254
 GameObject:
   m_ObjectHideFlags: 0
@@ -34511,6 +36638,7 @@ GameObject:
   - component: {fileID: 1717593257}
   - component: {fileID: 1717593256}
   - component: {fileID: 1717593259}
+  - component: {fileID: 1717593260}
   m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Wall
@@ -34628,6 +36756,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1717593260
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717593254}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1719661765
 GameObject:
   m_ObjectHideFlags: 0
@@ -34750,6 +36894,7 @@ GameObject:
   - component: {fileID: 1726816988}
   - component: {fileID: 1726816987}
   - component: {fileID: 1726816990}
+  - component: {fileID: 1726816991}
   m_Layer: 0
   m_Name: Cube (57)
   m_TagString: Wall
@@ -34867,6 +37012,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1726816991
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726816985}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1739653571
 GameObject:
   m_ObjectHideFlags: 0
@@ -34880,6 +37041,7 @@ GameObject:
   - component: {fileID: 1739653574}
   - component: {fileID: 1739653573}
   - component: {fileID: 1739653576}
+  - component: {fileID: 1739653577}
   m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Wall
@@ -34997,6 +37159,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1739653577
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739653571}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1741857808
 GameObject:
   m_ObjectHideFlags: 0
@@ -35010,6 +37188,7 @@ GameObject:
   - component: {fileID: 1741857811}
   - component: {fileID: 1741857810}
   - component: {fileID: 1741857813}
+  - component: {fileID: 1741857814}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Wall
@@ -35127,6 +37306,43 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1741857814
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741857808}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!1 &1753266007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1351737853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1753266009
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753266007}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1753302587
 GameObject:
   m_ObjectHideFlags: 0
@@ -35249,6 +37465,7 @@ GameObject:
   - component: {fileID: 1757834485}
   - component: {fileID: 1757834484}
   - component: {fileID: 1757834487}
+  - component: {fileID: 1757834488}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Wall
@@ -35366,6 +37583,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1757834488
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757834482}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1757852001
 GameObject:
   m_ObjectHideFlags: 0
@@ -35724,6 +37957,27 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1677926770}
   m_SourcePrefab: {fileID: 100100000, guid: 97950ce82a0a35e4290096169e68b18b, type: 3}
+--- !u!1 &1810164273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 639598977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &1810164275
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810164273}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1812245986
 GameObject:
   m_ObjectHideFlags: 0
@@ -35845,6 +38099,7 @@ GameObject:
   - component: {fileID: 1815021157}
   - component: {fileID: 1815021156}
   - component: {fileID: 1815021159}
+  - component: {fileID: 1815021160}
   m_Layer: 0
   m_Name: Cube (35)
   m_TagString: Wall
@@ -35962,6 +38217,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1815021160
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815021154}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1820524092
 GameObject:
   m_ObjectHideFlags: 0
@@ -36192,6 +38463,7 @@ GameObject:
   - component: {fileID: 1821125778}
   - component: {fileID: 1821125777}
   - component: {fileID: 1821125780}
+  - component: {fileID: 1821125781}
   m_Layer: 0
   m_Name: Cube (40)
   m_TagString: Wall
@@ -36309,6 +38581,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1821125781
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821125775}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1828800503
 GameObject:
   m_ObjectHideFlags: 0
@@ -36322,6 +38610,7 @@ GameObject:
   - component: {fileID: 1828800506}
   - component: {fileID: 1828800505}
   - component: {fileID: 1828800508}
+  - component: {fileID: 1828800509}
   m_Layer: 0
   m_Name: Cube (44)
   m_TagString: Wall
@@ -36439,6 +38728,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1828800509
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828800503}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &1830444724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36503,6 +38808,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 365843022}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1029336924}
@@ -36526,6 +38834,7 @@ GameObject:
   - component: {fileID: 1834557580}
   - component: {fileID: 1834557579}
   - component: {fileID: 1834557582}
+  - component: {fileID: 1834557583}
   m_Layer: 0
   m_Name: Cube (36)
   m_TagString: Wall
@@ -36643,6 +38952,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1834557583
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834557577}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1838829246
 GameObject:
   m_ObjectHideFlags: 0
@@ -36764,6 +39089,7 @@ GameObject:
   - component: {fileID: 1839463404}
   - component: {fileID: 1839463403}
   - component: {fileID: 1839463406}
+  - component: {fileID: 1839463407}
   m_Layer: 0
   m_Name: Cube (62)
   m_TagString: Wall
@@ -36881,6 +39207,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1839463407
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839463401}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1844362184
 GameObject:
   m_ObjectHideFlags: 0
@@ -37126,6 +39468,9 @@ PrefabInstance:
     - {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2083563415}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1859749027}
@@ -37216,6 +39561,7 @@ GameObject:
   - component: {fileID: 1872942388}
   - component: {fileID: 1872942387}
   - component: {fileID: 1872942390}
+  - component: {fileID: 1872942391}
   m_Layer: 0
   m_Name: Cube (47)
   m_TagString: Wall
@@ -37333,6 +39679,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1872942391
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872942385}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1876349299
 GameObject:
   m_ObjectHideFlags: 0
@@ -37346,6 +39708,7 @@ GameObject:
   - component: {fileID: 1876349302}
   - component: {fileID: 1876349301}
   - component: {fileID: 1876349304}
+  - component: {fileID: 1876349305}
   m_Layer: 0
   m_Name: Cube (33)
   m_TagString: Wall
@@ -37463,6 +39826,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1876349305
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876349299}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1880386277
 GameObject:
   m_ObjectHideFlags: 0
@@ -37670,6 +40049,9 @@ PrefabInstance:
     - {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654409166}
     - targetCorrespondingSourceObject: {fileID: 5359356803838576145, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1883503477}
@@ -37968,6 +40350,7 @@ GameObject:
   - component: {fileID: 1894442874}
   - component: {fileID: 1894442873}
   - component: {fileID: 1894442872}
+  - component: {fileID: 1894442875}
   m_Layer: 0
   m_Name: Muren
   m_TagString: Wall
@@ -38131,6 +40514,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894442870}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!208 &1894442875
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894442870}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1896974415
 GameObject:
   m_ObjectHideFlags: 0
@@ -38935,6 +41334,7 @@ GameObject:
   - component: {fileID: 1956841474}
   - component: {fileID: 1956841473}
   - component: {fileID: 1956841476}
+  - component: {fileID: 1956841477}
   m_Layer: 0
   m_Name: Cube (32)
   m_TagString: Wall
@@ -39052,6 +41452,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1956841477
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956841471}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1957714877
 GameObject:
   m_ObjectHideFlags: 0
@@ -39250,6 +41666,7 @@ GameObject:
   - component: {fileID: 1977040827}
   - component: {fileID: 1977040826}
   - component: {fileID: 1977040829}
+  - component: {fileID: 1977040830}
   m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Wall
@@ -39367,6 +41784,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1977040830
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977040824}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1979099511
 GameObject:
   m_ObjectHideFlags: 0
@@ -39597,6 +42030,7 @@ GameObject:
   - component: {fileID: 1987479890}
   - component: {fileID: 1987479889}
   - component: {fileID: 1987479892}
+  - component: {fileID: 1987479893}
   m_Layer: 0
   m_Name: Cube (47)
   m_TagString: Wall
@@ -39714,6 +42148,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &1987479893
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987479887}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1992125799
 GameObject:
   m_ObjectHideFlags: 0
@@ -39971,6 +42421,7 @@ GameObject:
   - component: {fileID: 2001985780}
   - component: {fileID: 2001985779}
   - component: {fileID: 2001985782}
+  - component: {fileID: 2001985783}
   m_Layer: 0
   m_Name: Cube (45)
   m_TagString: Wall
@@ -40088,6 +42539,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2001985783
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001985777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2010560189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41145,6 +43612,7 @@ GameObject:
   - component: {fileID: 2048314147}
   - component: {fileID: 2048314146}
   - component: {fileID: 2048314149}
+  - component: {fileID: 2048314150}
   m_Layer: 0
   m_Name: Cube (54)
   m_TagString: Wall
@@ -41262,6 +43730,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2048314150
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048314144}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2059880350
 GameObject:
   m_ObjectHideFlags: 0
@@ -41384,6 +43868,7 @@ GameObject:
   - component: {fileID: 2063576108}
   - component: {fileID: 2063576107}
   - component: {fileID: 2063576110}
+  - component: {fileID: 2063576111}
   m_Layer: 0
   m_Name: Cube (59)
   m_TagString: Wall
@@ -41501,6 +43986,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2063576111
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063576105}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2073224701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41634,6 +44135,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2075607512
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075607510}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2077551608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41698,6 +44215,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 959567558}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 384547814}
@@ -41708,6 +44228,27 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1467946575}
   m_SourcePrefab: {fileID: 100100000, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+--- !u!1 &2083563413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+  m_PrefabInstance: {fileID: 1859749022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!208 &2083563415
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083563413}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2089821358
 GameObject:
   m_ObjectHideFlags: 0
@@ -41973,6 +44514,7 @@ GameObject:
   - component: {fileID: 2095606683}
   - component: {fileID: 2095606682}
   - component: {fileID: 2095606685}
+  - component: {fileID: 2095606686}
   m_Layer: 0
   m_Name: Cube (40)
   m_TagString: Wall
@@ -42090,6 +44632,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2095606686
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095606680}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2101551652 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5942619810320883640, guid: 56547160846a74e46830e2d2c5087a10, type: 3}
@@ -42654,6 +45212,7 @@ GameObject:
   - component: {fileID: 2124011961}
   - component: {fileID: 2124011960}
   - component: {fileID: 2124011963}
+  - component: {fileID: 2124011964}
   m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Wall
@@ -42771,6 +45330,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2124011964
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124011958}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &2129336589
 GameObject:
   m_ObjectHideFlags: 0
@@ -42892,6 +45467,7 @@ GameObject:
   - component: {fileID: 2134893704}
   - component: {fileID: 2134893703}
   - component: {fileID: 2134893706}
+  - component: {fileID: 2134893707}
   m_Layer: 0
   m_Name: Cube (43)
   m_TagString: Wall
@@ -43009,6 +45585,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &2134893707
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134893701}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &2139925666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43073,6 +45665,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 944250479}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 212748729}
@@ -43223,6 +45818,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7794946762752787404, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5486728010543494662}
+    - targetCorrespondingSourceObject: {fileID: 7794946762752787404, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5486728010543494666}
   m_SourcePrefab: {fileID: 100100000, guid: 96d13e15387844a4c9f3839ccc97232e, type: 3}
 --- !u!4 &5486728010543494658 stripped
 Transform:
@@ -43250,6 +45848,22 @@ MonoBehaviour:
   normalIntensity: 1000
   flashlightIntensity: 5000
   terrain: {fileID: 0}
+--- !u!208 &5486728010543494666
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204214327}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1001 &5910515240715164359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43329,6 +45943,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2075607511}
+    - targetCorrespondingSourceObject: {fileID: 4501163973542247248, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075607512}
     - targetCorrespondingSourceObject: {fileID: 4123699207763293285, guid: c0d8abbd6076f29498326d4c3f9db0fa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1326012595}
