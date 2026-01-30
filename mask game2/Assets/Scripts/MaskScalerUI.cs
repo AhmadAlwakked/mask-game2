@@ -18,7 +18,7 @@ public class MaskScalerUI : MonoBehaviour
     public Vector2 enlargedSize = new Vector2(130, 130);
 
     [Header("Panel Settings")]
-    public Image panel; // panel blijft Image
+    public Image panel; // blijft Image
     public Color mask1Color = new Color(1f, 0f, 0f, 0.5f);
     public Color mask2Color = new Color(0f, 1f, 0f, 0.5f);
     public Color mask3Color = new Color(0f, 0f, 1f, 0.5f);
@@ -28,9 +28,16 @@ public class MaskScalerUI : MonoBehaviour
     public bool isMask2Active = false;
     public bool isMask3Active = false;
 
+    [Header("Lose Screen")]
+    public GameObject loseScreen; // zet hier je panel met lose text, buttons etc.
+
     void Start()
     {
         EquipMask(mask1, mask1Color, mask1Object);
+
+        // Zorg dat lose screen standaard uit staat
+        if (loseScreen != null)
+            loseScreen.SetActive(false);
     }
 
     void Update()
@@ -83,7 +90,7 @@ public class MaskScalerUI : MonoBehaviour
     void SetPanelColor(Color color)
     {
         if (panel != null)
-            panel.color = color; // blijft Image, werkt zoals normaal
+            panel.color = color;
     }
 
     void ActivateMaskObject(GameObject maskObject)
@@ -113,5 +120,22 @@ public class MaskScalerUI : MonoBehaviour
             obj.UpdateMaterial(active);
             obj.UpdateHeat();
         }
+    }
+
+    // ================= GAME OVER FUNCTION =================
+    public void ShowLoseScreen()
+    {
+        // Zet alle maskers en panel uit
+        if (mask1 != null) mask1.gameObject.SetActive(false);
+        if (mask2 != null) mask2.gameObject.SetActive(false);
+        if (mask3 != null) mask3.gameObject.SetActive(false);
+        mask1Object?.SetActive(false);
+        mask2Object?.SetActive(false);
+        mask3Object?.SetActive(false);
+        if (panel != null) panel.gameObject.SetActive(false);
+
+        // Zet lose screen wél aan
+        if (loseScreen != null && !loseScreen.activeSelf)
+            loseScreen.SetActive(true);
     }
 }

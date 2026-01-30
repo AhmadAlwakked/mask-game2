@@ -5,16 +5,31 @@ public class ObjectSound : MonoBehaviour
     public AudioSource audioSource;
     public Transform player;
 
-    // Afstanden in elke richting
+    [Header("Trigger Settings")]
     public Vector3 triggerSize = new Vector3(50f, 50f, 50f); // halve afmetingen van de kubus
     public float cooldown = 10f;
 
     private bool canPlay = true;
     private float cooldownTimer = 0f;
 
+    void Start()
+    {
+        // Als player niet handmatig is ingesteld, zoek automatisch naar object met tag "Player"
+        if (player == null)
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+                player = playerObj.transform;
+            else
+                Debug.LogWarning("Geen object gevonden met tag 'Player' voor ObjectSound!");
+        }
+    }
+
     void Update()
     {
-        // Bereken of de speler binnen de kubus zit
+        if (player == null) return; // safety check
+
+        // Bereken of de speler binnen de triggerkubus zit
         Vector3 delta = player.position - transform.position;
 
         if (Mathf.Abs(delta.x) <= triggerSize.x &&
@@ -28,11 +43,6 @@ public class ObjectSound : MonoBehaviour
                 canPlay = false;
                 cooldownTimer = cooldown;
             }
-        }
-        else
-        {
-            // speler buiten de kubus
-            canPlay = true;
         }
 
         // cooldown aftellen

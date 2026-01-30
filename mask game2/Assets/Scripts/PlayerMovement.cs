@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // voor scene reload als alternatief
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -21,11 +21,11 @@ public class PlayerMovement : MonoBehaviour
     public bool inside = false; // Vault logic
 
     [Header("Gravity Settings")]
-    public float gravity = -9.81f; // negatieve waarde voor naar beneden trekken
+    public float gravity = -9.81f;
     private float verticalVelocity = 0f;
 
     [Header("Game Over UI")]
-    public GameObject gameOverPanel; // sleep hier een UI panel voor Game Over
+    public GameObject gameOverPanel; // Extra panel naast loseScreen
 
     private CharacterController controller;
     private float stepTimer = 0f;
@@ -34,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
     private float cooldownTimer = 0f;
     private bool isSprinting = false;
     private bool shiftHeldLastFrame = false;
+
+    private bool isDead = false;
 
     void Start()
     {
@@ -46,13 +48,18 @@ public class PlayerMovement : MonoBehaviour
             sprintSlider.value = currentSprint;
         }
 
-        // Zorg dat Game Over panel uit staat bij start
         if (gameOverPanel != null)
             gameOverPanel.SetActive(false);
+
+        // Cursor verbergen en vergrendelen bij start
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
     {
+        if (isDead) return;
+
         HandleMovement();
         HandleSprint();
         UpdateSlider();
@@ -67,19 +74,13 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         float speed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
 
-        // ================= ZWAARTEKRACHT =================
+        // Zwaartekracht
         if (controller.isGrounded)
-        {
-            verticalVelocity = -1f; // licht naar beneden trekken zodat grounded blijft
-        }
+            verticalVelocity = -1f;
         else
-        {
-            verticalVelocity += gravity * Time.deltaTime; // zwaartekracht toepassen
-        }
+            verticalVelocity += gravity * Time.deltaTime;
 
-        // Voeg verticale beweging toe
         move.y = verticalVelocity;
-
         controller.Move(move * speed * Time.deltaTime);
 
         // Voetstap geluid
@@ -91,14 +92,11 @@ public class PlayerMovement : MonoBehaviour
             stepTimer += Time.deltaTime;
             if (stepTimer >= interval)
             {
-                footstepSource.PlayOneShot(footstepClip);
+                footstepSource?.PlayOneShot(footstepClip);
                 stepTimer = 0f;
             }
         }
-        else
-        {
-            stepTimer = 0f;
-        }
+        else stepTimer = 0f;
     }
 
     // ================= SPRINT =================
@@ -106,39 +104,27 @@ public class PlayerMovement : MonoBehaviour
     {
         bool shiftHeld = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
 
-        // Als sprint op is of Shift loslaat, start cooldown
         if ((shiftHeld && currentSprint <= 0f) || (!shiftHeld && shiftHeldLastFrame))
-        {
             cooldownTimer = sprintCooldown;
-        }
 
         shiftHeldLastFrame = shiftHeld;
 
-        // Sprinten
         if (shiftHeld && currentSprint > 0f)
         {
             isSprinting = true;
             currentSprint -= sprintDepletionRate * Time.deltaTime;
-            if (currentSprint < 0f) currentSprint = 0f;
+            currentSprint = Mathf.Max(currentSprint, 0f);
         }
         else
         {
             isSprinting = false;
 
-            // Cooldown actief?
             if (cooldownTimer > 0f)
-            {
                 cooldownTimer -= Time.deltaTime;
-                if (cooldownTimer < 0f) cooldownTimer = 0f;
-            }
-            else
+            else if (currentSprint < maxSprint)
             {
-                // Regen sprint
-                if (currentSprint < maxSprint)
-                {
-                    currentSprint += sprintRegenRate * Time.deltaTime;
-                    if (currentSprint > maxSprint) currentSprint = maxSprint;
-                }
+                currentSprint += sprintRegenRate * Time.deltaTime;
+                currentSprint = Mathf.Min(currentSprint, maxSprint);
             }
         }
     }
@@ -156,6 +142,12 @@ public class PlayerMovement : MonoBehaviour
         Vault vault = other.GetComponent<Vault>();
         if (vault != null && !vault.door.IsOpen())
             inside = true;
+
+        // ================= GAME OVER =================
+        if (!isDead && other.CompareTag("Monster"))
+        {
+            Die();
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -172,29 +164,38 @@ public class PlayerMovement : MonoBehaviour
             inside = false;
     }
 
-    // ================= GAME OVER =================
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    // ================= GAME OVER LOGICA =================
+    private void Die()
     {
-        if (hit.collider.CompareTag("Monster"))
+        isDead = true;
+        Debug.Log("Game Over! Je bent gepakt door een monster!");
+
+        // Stop speler volledig
+        enabled = false;
+
+        // Cursor terugzetten
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        // Verberg maskers en panel UI
+        MaskScalerUI maskUI = FindObjectOfType<MaskScalerUI>();
+        if (maskUI != null)
         {
-            Debug.Log("Game Over! Je bent gepakt door een monster!");
+            maskUI.mask1.gameObject.SetActive(false);
+            maskUI.mask2.gameObject.SetActive(false);
+            maskUI.mask3.gameObject.SetActive(false);
+            maskUI.mask1Object?.SetActive(false);
+            maskUI.mask2Object?.SetActive(false);
+            maskUI.mask3Object?.SetActive(false);
+            if (maskUI.panel != null) maskUI.panel.gameObject.SetActive(false);
 
-            // Toon Game Over UI panel
-            if (gameOverPanel != null)
-                gameOverPanel.SetActive(true);
-
-            // Stop beweging
-            enabled = false;
-
-            // Optioneel: herlaad de scene na 3 seconden
-            // StartCoroutine(ReloadSceneAfterDelay(3f));
+            // Zet lose screen aan
+            if (maskUI.loseScreen != null)
+                maskUI.loseScreen.SetActive(true);
         }
-    }
 
-    // Optionele coroutine om scene te herladen
-    private System.Collections.IEnumerator ReloadSceneAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // GameOver panel aan
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(true);
     }
 }
