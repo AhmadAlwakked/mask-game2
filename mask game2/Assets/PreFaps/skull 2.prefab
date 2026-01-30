@@ -182,13 +182,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5282db68656802649b13707333e60718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isVrouw: 0
+  isSkull: 1
   walkSpeed: 5
   sprintSpeed: 15
   wanderInterval: 10
-  wanderRadius: 100
   chaseRadius: 300
   rayCount: 120
   viewHeightOffset: 4.98
+  footstepSource: {fileID: 0}
+  footstepClip: {fileID: 0}
+  stepInterval: 0.5
 --- !u!195 &3613476887819326735
 NavMeshAgent:
   m_ObjectHideFlags: 0
