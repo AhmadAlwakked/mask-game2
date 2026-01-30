@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class MaskScalerUI : MonoBehaviour
 {
-    [Header("UI Masks / RawImages")]
+    [Header("UI Masks / Images")]
     public RawImage mask1;
     public RawImage mask2;
     public RawImage mask3;
@@ -18,7 +18,7 @@ public class MaskScalerUI : MonoBehaviour
     public Vector2 enlargedSize = new Vector2(130, 130);
 
     [Header("Panel Settings")]
-    public RawImage panel;
+    public Image panel; // panel blijft Image
     public Color mask1Color = new Color(1f, 0f, 0f, 0.5f);
     public Color mask2Color = new Color(0f, 1f, 0f, 0.5f);
     public Color mask3Color = new Color(0f, 0f, 1f, 0.5f);
@@ -83,7 +83,7 @@ public class MaskScalerUI : MonoBehaviour
     void SetPanelColor(Color color)
     {
         if (panel != null)
-            panel.color = color;
+            panel.color = color; // blijft Image, werkt zoals normaal
     }
 
     void ActivateMaskObject(GameObject maskObject)
