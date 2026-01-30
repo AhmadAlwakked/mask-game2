@@ -8,6 +8,7 @@ TagManager:
   - Vault
   - Inside
   - Wall
+  - Monster
   layers:
   - Default
   - TransparentFX

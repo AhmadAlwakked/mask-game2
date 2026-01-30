@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // voor scene reload als alternatief
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = -9.81f; // negatieve waarde voor naar beneden trekken
     private float verticalVelocity = 0f;
 
+    [Header("Game Over UI")]
+    public GameObject gameOverPanel; // sleep hier een UI panel voor Game Over
+
     private CharacterController controller;
     private float stepTimer = 0f;
 
@@ -41,6 +45,10 @@ public class PlayerMovement : MonoBehaviour
             sprintSlider.maxValue = maxSprint;
             sprintSlider.value = currentSprint;
         }
+
+        // Zorg dat Game Over panel uit staat bij start
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
     }
 
     void Update()
@@ -162,5 +170,31 @@ public class PlayerMovement : MonoBehaviour
         Vault vault = other.GetComponent<Vault>();
         if (vault != null)
             inside = false;
+    }
+
+    // ================= GAME OVER =================
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.collider.CompareTag("Monster"))
+        {
+            Debug.Log("Game Over! Je bent gepakt door een monster!");
+
+            // Toon Game Over UI panel
+            if (gameOverPanel != null)
+                gameOverPanel.SetActive(true);
+
+            // Stop beweging
+            enabled = false;
+
+            // Optioneel: herlaad de scene na 3 seconden
+            // StartCoroutine(ReloadSceneAfterDelay(3f));
+        }
+    }
+
+    // Optionele coroutine om scene te herladen
+    private System.Collections.IEnumerator ReloadSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
