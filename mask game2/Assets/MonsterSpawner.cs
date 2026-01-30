@@ -3,14 +3,13 @@ using System.Collections.Generic;
 
 public class MonsterSpawner : MonoBehaviour
 {
-    [Header("Monster Prefab")]
-    public GameObject monsterPrefab; // Het monster prefab dat gespawnt wordt
+    [Header("Monster Prefabs")]
+    public GameObject[] monsterPrefabs; // array van monster prefabs
 
     [Header("Spawn Settings")]
-    public int monsterCount = 3; // Hoeveel monsters er in totaal gespawnt moeten worden
-    public bool spawnOnStart = true; // Spawn meteen bij start?
+    public bool spawnOnStart = true; // spawn meteen bij start?
 
-    private Transform[] spawnPoints; // Wordt automatisch gevuld met tag "SpawnpointV"
+    private Transform[] spawnPoints; // automatisch gevuld met tag "SpawnpointV"
 
     void Awake()
     {
@@ -29,9 +28,9 @@ public class MonsterSpawner : MonoBehaviour
 
     public void SpawnMonsters()
     {
-        if (monsterPrefab == null)
+        if (monsterPrefabs.Length == 0)
         {
-            Debug.LogWarning("Monster prefab is niet ingesteld!");
+            Debug.LogWarning("Geen monster prefabs ingesteld!");
             return;
         }
 
@@ -41,25 +40,26 @@ public class MonsterSpawner : MonoBehaviour
             return;
         }
 
-        // Gebruik een lijst om al gebruikte spawnpoints te tracken
+        // Gebruik een lijst om vrije spawnpoints te tracken
         List<Transform> availableSpawns = new List<Transform>(spawnPoints);
 
-        for (int i = 0; i < monsterCount; i++)
+        // Spawn elk monster 1x
+        for (int i = 0; i < monsterPrefabs.Length; i++)
         {
             if (availableSpawns.Count == 0)
-                break; // Geen vrije spawnpoints meer
+                break; // geen vrije spawnpoints meer
 
             // Kies een random spawnpoint
             int index = Random.Range(0, availableSpawns.Count);
             Transform spawn = availableSpawns[index];
 
             // Spawn het monster
-            GameObject monster = Instantiate(monsterPrefab, spawn.position, spawn.rotation);
+            GameObject monster = Instantiate(monsterPrefabs[i], spawn.position, spawn.rotation);
 
-            // Optioneel: geef de monster een parent (bijv. voor organisatie)
+            // Optioneel: zet parent voor organisatie
             monster.transform.parent = this.transform;
 
-            // Verwijder spawnpoint uit lijst zodat het niet dubbel wordt gebruikt
+            // Verwijder spawnpoint zodat geen 2 monsters hetzelfde punt krijgen
             availableSpawns.RemoveAt(index);
         }
     }
