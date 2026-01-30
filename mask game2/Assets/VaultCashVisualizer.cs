@@ -14,11 +14,11 @@ public class VaultCashVisualizer : MonoBehaviour
     public int simulationRuns = 10000;
 
     [Header("Results (Read-Only)")]
-    [ReadOnly] public float chance1;
-    [ReadOnly] public float chance2;
-    [ReadOnly] public float chance3;
-    [ReadOnly] public float chance4;
-    [ReadOnly] public float chance5;
+    public float chance1;
+    public float chance2;
+    public float chance3;
+    public float chance4;
+    public float chance5;
 
     void OnValidate()
     {
