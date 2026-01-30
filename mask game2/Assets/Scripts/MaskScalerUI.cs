@@ -3,10 +3,10 @@ using UnityEngine.UI;
 
 public class MaskScalerUI : MonoBehaviour
 {
-    [Header("UI Masks / Images")]
-    public Image mask1;
-    public Image mask2;
-    public Image mask3;
+    [Header("UI Masks / RawImages")]
+    public RawImage mask1;
+    public RawImage mask2;
+    public RawImage mask3;
 
     [Header("Masker GameObjects")]
     public GameObject mask1Object;
@@ -18,7 +18,7 @@ public class MaskScalerUI : MonoBehaviour
     public Vector2 enlargedSize = new Vector2(130, 130);
 
     [Header("Panel Settings")]
-    public Image panel;
+    public RawImage panel;
     public Color mask1Color = new Color(1f, 0f, 0f, 0.5f);
     public Color mask2Color = new Color(0f, 1f, 0f, 0.5f);
     public Color mask3Color = new Color(0f, 0f, 1f, 0.5f);
@@ -45,7 +45,7 @@ public class MaskScalerUI : MonoBehaviour
             EquipMask(mask3, mask3Color, mask3Object);
     }
 
-    void EquipMask(Image mask, Color panelColor, GameObject maskObject)
+    void EquipMask(RawImage mask, Color panelColor, GameObject maskObject)
     {
         ResetMasks();
         SetMaskSize(mask, enlargedSize);
@@ -74,7 +74,7 @@ public class MaskScalerUI : MonoBehaviour
         SetHeatVision(false);
     }
 
-    void SetMaskSize(Image mask, Vector2 size)
+    void SetMaskSize(RawImage mask, Vector2 size)
     {
         if (mask != null)
             mask.rectTransform.sizeDelta = size;
