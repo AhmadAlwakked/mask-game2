@@ -1222,6 +1222,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 33679229}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 33679230}
     - targetCorrespondingSourceObject: {fileID: 1588121248160279453, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       insertIndex: -1
       addedObject: {fileID: 859032210}
@@ -1407,11 +1410,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   sprintSpeed: 15
-  wanderInterval: 5
+  wanderInterval: 10
   chaseRadius: 300
   rayCount: 120
   player: {fileID: 960840291}
   viewHeightOffset: 10
+--- !u!136 &33679230
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33679223}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.9
+  m_Height: 4.84
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.98, z: 0}
 --- !u!1 &40599137
 GameObject:
   m_ObjectHideFlags: 0
@@ -32525,11 +32551,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vault: {fileID: 1326012588}
   simulationRuns: 10000
-  chance1: 30.29
-  chance2: 11.75
-  chance3: 4.85
-  chance4: 1.89
-  chance5: 1.17
+  chance1: 30.68
+  chance2: 11.66
+  chance3: 4.72
+  chance4: 2.06
+  chance5: 1.42
 --- !u!1001 &1562734180
 PrefabInstance:
   m_ObjectHideFlags: 0
