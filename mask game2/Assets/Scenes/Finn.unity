@@ -240,6 +240,120 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1001 &843924094
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.518827
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1838126
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_Name
+      value: blood pool 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+--- !u!1001 &1275956548
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.798586
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.46477616
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
+      propertyPath: m_Name
+      value: blood pool 1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f79d945b8b82bf498b55d98a4abafcd, type: 3}
 --- !u!1001 &1371017568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -563,3 +677,5 @@ SceneRoots:
   - {fileID: 2040428802}
   - {fileID: 1371017568}
   - {fileID: 2082063270708455824}
+  - {fileID: 843924094}
+  - {fileID: 1275956548}
