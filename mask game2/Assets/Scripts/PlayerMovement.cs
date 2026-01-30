@@ -19,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
 
     public bool inside = false; // Vault logic
 
+    [Header("Gravity Settings")]
+    public float gravity = -9.81f; // negatieve waarde voor naar beneden trekken
+    private float verticalVelocity = 0f;
+
     private CharacterController controller;
     private float stepTimer = 0f;
 
@@ -55,13 +59,26 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         float speed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
 
+        // ================= ZWAARTEKRACHT =================
+        if (controller.isGrounded)
+        {
+            verticalVelocity = -1f; // licht naar beneden trekken zodat grounded blijft
+        }
+        else
+        {
+            verticalVelocity += gravity * Time.deltaTime; // zwaartekracht toepassen
+        }
+
+        // Voeg verticale beweging toe
+        move.y = verticalVelocity;
+
         controller.Move(move * speed * Time.deltaTime);
 
         // Voetstap geluid
-        bool isWalking = move.magnitude > 0.1f;
+        bool isWalking = new Vector3(moveX, 0, moveZ).magnitude > 0.1f;
         float interval = isSprinting ? stepInterval / 2f : stepInterval;
 
-        if (isWalking)
+        if (isWalking && controller.isGrounded)
         {
             stepTimer += Time.deltaTime;
             if (stepTimer >= interval)
