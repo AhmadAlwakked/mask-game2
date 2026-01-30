@@ -18,19 +18,19 @@
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            struct appdata
-            {
-                float4 vertex : POSITION;
+            struct appdata 
+            { 
+                float4 vertex : POSITION; 
             };
 
-            struct v2f
-            {
-                float4 pos : SV_POSITION;
+            struct v2f 
+            { 
+                float4 pos : SV_POSITION; 
             };
 
+            fixed4 _Color;
             float _Heat;
             float _Enabled;
-            fixed4 _Color;
 
             v2f vert(appdata v)
             {
@@ -41,21 +41,21 @@
 
             fixed4 frag(v2f i) : SV_Target
             {
+                // Als heatvision uitstaat
                 if (_Enabled < 0.5)
-                {
-                    // Mask2 uit → toon standaard kleur
                     return _Color;
-                }
 
-                // Mask2 aan → toon warmte (rood/blauw)
+                // Warmte kleur
                 fixed4 heatCol;
-                heatCol.r = _Heat;
+                heatCol.r = _Heat;           // rood = warm
                 heatCol.g = 0;
-                heatCol.b = 1.0 - _Heat;
+                heatCol.b = 1.0 - _Heat;     // blauw = koud
                 heatCol.a = 1;
+
                 return heatCol;
             }
             ENDCG
         }
     }
+    FallBack "Diffuse"
 }

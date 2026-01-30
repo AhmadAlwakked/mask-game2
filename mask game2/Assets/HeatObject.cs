@@ -5,30 +5,53 @@ public class HeatObject : MonoBehaviour
 {
     [Header("Heat Settings")]
     [Range(0f, 1f)]
-    public float heat = 0.0f; // 0 = koud/blauw, 1 = warm/rood
+    public float heat = 0.0f;
 
     [Header("Materials")]
-    public Material standardMaterial; // normale look
-    public Material heatMaterial;     // HeatVision shader
+    public Material standardMaterial; // fallback normaal materiaal
+    public Material heatMaterial;
+
+    [Header("Optional Light")]
+    public Light objectLight;
+    public bool isFlashlight = false;
+    public Color heatLightColor = new Color(1f, 0f, 1f);
+    public float normalIntensity = 1000f;
+    public float flashlightIntensity = 5000f;
+
+    [Header("Optional Terrain Support")]
+    public Terrain terrain;
 
     private Renderer objectRenderer;
+    private bool heatActive = false;
+
+    // Nieuwe variabele om origineel terrain materiaal te onthouden
+    private Material terrainOriginalMaterial;
 
     void Awake()
     {
         objectRenderer = GetComponent<Renderer>();
-        UpdateMaterial(false); // start met standaard materiaal
+
+        // Onthoud originele terrain material
+        if (terrain != null)
+        {
+            terrainOriginalMaterial = terrain.materialTemplate;
+        }
+
+        heatActive = false;
+        ApplyMaterial();
+        ApplyLight();
         UpdateHeat();
     }
 
-    void OnValidate()
+    void Update()
     {
         UpdateHeat();
+        ApplyLight();
     }
 
-    // Update per-object heat waarde in hot material
     public void UpdateHeat()
     {
-        if (objectRenderer == null) objectRenderer = GetComponent<Renderer>();
+        if (!heatActive) return;
 
         if (objectRenderer != null && heatMaterial != null)
         {
@@ -37,22 +60,54 @@ public class HeatObject : MonoBehaviour
             mpb.SetFloat("_Heat", heat);
             objectRenderer.SetPropertyBlock(mpb);
         }
+
+        if (terrain != null && heatMaterial != null)
+        {
+            terrain.materialTemplate = heatMaterial;
+            terrain.materialTemplate.SetFloat("_Heat", heat);
+        }
     }
 
-    // Schakel tussen hot en normaal materiaal
-    public void UpdateMaterial(bool heatActive)
+    public void UpdateMaterial(bool active)
     {
-        if (objectRenderer == null) objectRenderer = GetComponent<Renderer>();
-        if (objectRenderer == null) return;
+        heatActive = active;
+        ApplyMaterial();
+        ApplyLight();
+    }
 
-        if (heatActive && heatMaterial != null)
+    private void ApplyMaterial()
+    {
+        if (objectRenderer != null)
         {
-            objectRenderer.material = heatMaterial;
-            UpdateHeat(); // zorg dat heat value klopt
+            if (heatActive && heatMaterial != null)
+                objectRenderer.material = heatMaterial;
+            else if (!heatActive && standardMaterial != null)
+                objectRenderer.material = standardMaterial;
         }
-        else if (!heatActive && standardMaterial != null)
+
+        if (terrain != null)
         {
-            objectRenderer.material = standardMaterial;
+            if (heatActive && heatMaterial != null)
+            {
+                terrain.materialTemplate = heatMaterial;
+                terrain.materialTemplate.SetFloat("_Heat", heat);
+            }
+            else
+            {
+                // Zet terug naar origineel materiaal
+                if (terrainOriginalMaterial != null)
+                    terrain.materialTemplate = terrainOriginalMaterial;
+                else if (standardMaterial != null)
+                    terrain.materialTemplate = standardMaterial;
+            }
         }
+    }
+
+    private void ApplyLight()
+    {
+        if (objectLight == null) return;
+
+        objectLight.intensity = isFlashlight ? flashlightIntensity : normalIntensity;
+        objectLight.color = heatActive ? heatLightColor : Color.white;
     }
 }
