@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 683.4824
+      value: 32.399994
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 104.46218
+      value: 79.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 344.66995
+      value: 501.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2ede0c2c9b00ad3468252cf55deae6f5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 5238711105583220606}
   player: {fileID: 0}
-  triggerSize: {x: 300, y: 51.4, z: 300}
+  triggerSize: {x: 250, y: 22.2, z: 250}
   cooldown: 10
 --- !u!195 &1873962956354606632
 NavMeshAgent:
