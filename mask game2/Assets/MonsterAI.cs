@@ -13,12 +13,18 @@ public class MonsterChase : MonoBehaviour
 
     [Header("Wander Settings")]
     public float wanderInterval = 4f;
+    [Tooltip("Max afstand dat het monster kan wandelen bij elke stap")]
+    public float wanderRadius = 15f;
 
     [Header("Chase Settings")]
     public float chaseRadius = 10f; // maximale afstand monster kan zien
-    public int rayCount = 120;       // aantal rays voor de fan
-    public Transform player;
-    public float viewHeightOffset = 1.5f; // hoogte-offset van de FOV
+    public int rayCount = 120;
+    public float viewHeightOffset = 1.5f;
+
+    [Header("Automatic References")]
+    private Transform[] spawnPoints;
+    private Transform player;
+    private PlayerMovement playerMovement;
 
     private NavMeshAgent agent;
     private float timer;
@@ -27,41 +33,56 @@ public class MonsterChase : MonoBehaviour
     // Raycast punten voor gizmos
     private Vector3[] rayPoints;
 
-    // Referentie naar player movement
-    private PlayerMovement playerMovement;
+    void Awake()
+    {
+        // Zoek player automatisch op basis van tag "Player"
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+            playerMovement = playerObj.GetComponent<PlayerMovement>();
+        }
+
+        // Zoek alle spawnpoints met tag "SpawnpointV"
+        GameObject[] spawns = GameObject.FindGameObjectsWithTag("SpawnpointV");
+        spawnPoints = new Transform[spawns.Length];
+        for (int i = 0; i < spawns.Length; i++)
+            spawnPoints[i] = spawns[i].transform;
+    }
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        if (player != null)
-            playerMovement = player.GetComponent<PlayerMovement>();
+
+        // Zet monster op een random spawnpoint
+        if (spawnPoints.Length > 0)
+        {
+            Transform spawn = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            transform.position = spawn.position;
+        }
 
         PickNewDestination();
     }
 
     void Update()
     {
-        // Check of agent actief is op de NavMesh
         if (player == null || agent == null || !agent.isOnNavMesh) return;
 
-        // Als de player "inside" is, volg niet
         if (playerMovement != null && playerMovement.inside)
         {
-            // Stop sprinten en volg niet
+            // Player is in vault, wanderen
             isSprinting = false;
             agent.speed = walkSpeed;
 
-            // Blijf normaal wandelen
             timer += Time.deltaTime;
             if (timer >= wanderInterval || agent.remainingDistance <= agent.stoppingDistance)
                 PickNewDestination();
         }
         else
         {
-            // Player detection
+            // Player detectie
             if (IsPlayerInRadius())
             {
-                // Sprint en volg player
                 isSprinting = true;
                 agent.speed = sprintSpeed;
                 agent.SetDestination(player.position);
@@ -79,34 +100,28 @@ public class MonsterChase : MonoBehaviour
             }
         }
 
-        // Update FOV rays voor Gizmos
         UpdateRayPoints();
     }
 
-    // =================== Player Detection ===================
     bool IsPlayerInRadius()
     {
         if (player == null) return false;
 
         Vector3 monsterEye = transform.position + Vector3.up * viewHeightOffset;
-        Vector3 playerPos = player.position + Vector3.up * 0.5f; // speler half-height
+        Vector3 playerPos = player.position + Vector3.up * 0.5f;
 
-        // Check afstand
         float dist = Vector3.Distance(monsterEye, playerPos);
         if (dist > chaseRadius) return false;
 
-        // Check line-of-sight: geen muren ertussen
-        RaycastHit hit;
-        if (Physics.Raycast(monsterEye, (playerPos - monsterEye).normalized, out hit, chaseRadius))
+        if (Physics.Raycast(monsterEye, (playerPos - monsterEye).normalized, out RaycastHit hit, chaseRadius))
         {
             if (hit.transform != player)
-                return false; // muur blokkeert zicht
+                return false;
         }
 
-        return true; // speler binnen zicht en zonder obstakel
+        return true;
     }
 
-    // =================== Wandering ===================
     void PickNewDestination()
     {
         timer = 0f;
@@ -117,14 +132,14 @@ public class MonsterChase : MonoBehaviour
 
     Vector3 GetRandomNavMeshPoint()
     {
-        Vector3 randomDirection = Random.insideUnitSphere * 1000f + transform.position;
-        NavMeshHit hit;
-        if (NavMesh.SamplePosition(randomDirection, out hit, 1000f, NavMesh.AllAreas))
+        Vector3 randomDirection = Random.insideUnitSphere * wanderRadius + transform.position;
+
+        if (NavMesh.SamplePosition(randomDirection, out NavMeshHit hit, wanderRadius, NavMesh.AllAreas))
             return hit.position;
+
         return transform.position;
     }
 
-    // =================== Raycast FOV ===================
     void UpdateRayPoints()
     {
         Vector3 center = transform.position + Vector3.up * viewHeightOffset;
@@ -135,25 +150,18 @@ public class MonsterChase : MonoBehaviour
             float angle = i * 360f / rayCount;
             Vector3 dir = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), 0, Mathf.Sin(angle * Mathf.Deg2Rad));
 
-            RaycastHit hit;
-            if (Physics.Raycast(center, dir, out hit, chaseRadius))
-            {
+            if (Physics.Raycast(center, dir, out RaycastHit hit, chaseRadius))
                 rayPoints[i] = hit.point;
-            }
             else
-            {
                 rayPoints[i] = center + dir * chaseRadius;
-            }
         }
     }
 
-    // =================== Gizmos ===================
     private void OnDrawGizmosSelected()
     {
         UpdateRayPoints();
         if (rayPoints == null || rayPoints.Length == 0) return;
 
-        // Rood outline
         Gizmos.color = Color.red;
         for (int i = 0; i < rayPoints.Length; i++)
         {
@@ -163,7 +171,6 @@ public class MonsterChase : MonoBehaviour
         }
 
 #if UNITY_EDITOR
-        // Semi-transparant rood ingevuld polygon
         Handles.color = new Color(1f, 0f, 0f, 0.1f);
         Handles.DrawAAConvexPolygon(rayPoints);
 #endif
